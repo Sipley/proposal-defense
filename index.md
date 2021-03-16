@@ -48,7 +48,6 @@ bottom:50px;" width="60%">
 ## Acknowledgements 
 
 *** {name: left}
-
 <b>Committee</b><br>
 Luke Harmon<br>
 Christine Parent<br>
@@ -56,25 +55,21 @@ Aleta Quinn<br>
 Jack Sullivan
 
 <b>Rockstar labmates</b><br>
-Kristen Martinet<br>
-Orlando Schwery
+Kristen Martinet, Orlando Schwery
 
-<b>Resources</b><br>
-NSF GRFP, Idaho EPSCoR GEM3 VIP<br>
-UI IBEST CRC
+<b>BCB</b><br>
+Lisha Abendroth<br>
+Dave Tank
 
 *** {name: right}
+<b>Resources</b><br>
+NSF GRFP, Idaho EPSCoR GEM3 VIP<br>
+UI IBEST CRC<br>
+Raven Scholars, CDAR, CTC, COGS
 
 <b>Snorks</b><br>
-Kelly Martin<br>
-Ian Oiler<br>
-Malia Santos<br>
-David Sneddon
+Kelly Martin, Ian Oiler, Malia Santos, David Sneddon
 
 <b>Co-working friends</b><br>
-Chava Castaneda<br>
-Clint Elg<br>
-Yesol Sapozhnikov<br>
-Courtney Schreiner<br>
-Hannah Smith<br>
-Amanda Stahlke
+Chava Castaneda, Clint Elg, Yesol Sapozhnikov, Courtney Schreiner, Hannah Smith, Amanda Stahlke
+ 
