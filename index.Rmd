@@ -15,9 +15,22 @@ knit        : slidify::knit2slides
 
 ## Big questions
 
-* When do ecological interactions between species leave a lasting imprint on the evolutionary histories of either partner?
+* How do ecological interactions shape the diversification of life?
 * Why is parasitism so common?
-* How may parasites evade coextinction risk?
+
+<img src="assets/img/zombieCrab.png" style="position:absolute; 
+float:left; 
+right:0px; 
+bottom:0px;" width="49%">
+
+<br><br><br><br>
+<p style="position: absolute; bottom: 1; left: 5; width: 475px; padding: 0px; background-color: none; font-size: 20px; text-align:right">
+<b>Parasitic barnacle (<em>Heterosaccus californicus</em>)<br>
+Sheep crab (<em>Loxorhynchus grandis</em>)</b><br>
+Photo by Anand Varma, "Mindsuckers"<br>
+National Geographic (2014)
+
+</p>
 
 ---
 
