@@ -15,24 +15,16 @@ knit        : slidify::knit2slides
 
 ## Big questions
 
-* Why & how so many species? 
-* Parasitism drive <br>& maintain genetic diversity?
-
-<p style="position: absolute; bottom: 0; left: 0px; width: 525px; padding: 0px; background-color: #fff; font-weight: bold; font-size: 20px;">
-Photos by Anand Varma, "Mindsuckers"<br>
-National Geographic (2014)
-
-
-<br><br>
-
-</p>
+* When do ecological interactions between species leave a lasting imprint on the evolutionary histories of either partner?
+* Why is parasitism so common?
+* How may parasites evade coextinction risk?
 
 ---
 
 ## Hypotheses
 
 * Antagonistic coevolution btwn parasites & their hosts
-* Genomic signature?
+* Evolutionary rescue
 
 <img src="assets/img/redQueen.jpeg" style="position:absolute; 
 float:middle; 
@@ -41,44 +33,14 @@ bottom:50px;" width="60%">
 
 ---
 
-## System:  Flatworms
+## Escape-and-radiate coevolution
+
+> "In escape-and-radiate coevolution, coevolution happens at key moments to drive the evolution of plant defenses and insect counter-defenses, and then other speciation processes (e.g., allopatric speciation) come into play as plants and insects increase their geographic ranges or further subdivide resources."
+>
+> -- Althoff, Segraves, and Johnson (2014)
 
 <div style="position: absolute; top: 1em; right: 1em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Collins, J Current Biology (2017) </p>
-</div>
-
----
-
-## Hypotheses
-
-* Antagonistic coevolution btwn parasites & their hosts
-* Genomic signature?
-
-<img src="assets/img/redQueen.jpeg" style="position:absolute; 
-float:middle; 
-right:0px;
-bottom:50px;" width="60%">
-
----
-
-## Hypotheses
-
-* Antagonistic coevolution btwn parasites & their hosts
-* Genomic signature?
-
-<br>
-
-## Host-specific selection drives VAP gene family evolution
-
-1. VAP diversity higher in endoparasitic flatworms
-2. Secretory Group 1 VAPs from parasitic flatworms under (+) selection
-
---- &twocol
-
-## What's VAP got to do with it?
-
-<div style="position: absolute; top:1em; right: 1em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Galen et al (2012) </p>
+<p style="font-size: 20px"; align="right">Ehrlich and Raven (1964); Thompson (1994) </p>
 </div>
 
 --- &twocol
