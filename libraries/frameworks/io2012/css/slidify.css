@@ -44,7 +44,7 @@
 /* Fonts and Spacing */
 article p, article li, article li.build, section p, section li{
   font-family: 'Open Sans','Helvetica', 'Crimson Text', 'Garamond',  'Palatino', sans-serif;
-  text-align: justify;
+  text-align: left;
   font-size:28px;
   line-height: 1.5em;
   color: #444;
@@ -293,7 +293,7 @@ body {
 }
 
 p {
-  text-align: justify;
+  text-align: left;
   line-height: 1.5em;
 }
 /* Place Video on Top Right */

@@ -13,10 +13,21 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## Big questions
+## Outline
 
-* How do ecological interactions shape the diversification of life?
-* Why is parasitism so common?
+> 1. Introduction 
+> 2. Developing a new model for a classic hypothesis
+> 3. Quantifying the role of coevolution in lineage diversification
+> 4. Software process meets the scientific method
+> 5. Considerations
+> 6. Summary
+
+---
+
+## Introduction: Big questions
+
+> - How do ecological interactions shape the diversification of life?
+> - Why is parasitism so common?
 
 <img src="assets/img/zombieCrab.png" style="position:absolute; 
 float:left; 
@@ -32,28 +43,44 @@ National Geographic (2014)
 
 </p>
 
----
+--- &twocol
 
-## Hypotheses
+## Introduction: Hypotheses
 
-* Antagonistic coevolution btwn parasites & their hosts
+*** {name: left}
+
 * Evolutionary rescue
 
-<img src="assets/img/redQueen.jpeg" style="position:absolute; 
-float:middle; 
-right:0px;
-bottom:50px;" width="60%">
 
----
+>"Evolutionary rescue occurs when adaptive evolutionary change restores positive growth to declining populations and prevents extinction" 
+>
+>  &mdash; @CARLSON2014521
 
-## Escape-and-radiate coevolution
+*** {name: right}
+
+* Antagonistic coevolution btwn parasites & their hosts
+
+![red-queen](assets/img/redQueen.jpeg)
+<center>![arms-race](assets/img/arms-race.png)</center>
+
+--- &twocol
+
+## Introduction: Escape-and-radiate coevolution
 
 > "In escape-and-radiate coevolution, coevolution happens at key moments to drive the evolution of plant defenses and insect counter-defenses, and then other speciation processes (e.g., allopatric speciation) come into play as plants and insects increase their geographic ranges or further subdivide resources."
 >
-> -- Althoff, Segraves, and Johnson (2014)
+>  &mdash; Althoff, Segraves, and Johnson (2014)
 
-<div style="position: absolute; top: 1em; right: 1em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Ehrlich and Raven (1964); Thompson (1994) </p>
+*** {name: left}
+
+<H3 align="left">Let's say we start with</H3>
+![starting](assets/img/starting.png)
+
+*** {name: right}
+### Potential scenario
+![escape-and-radiate](assets/img/escape-and-radiate.png)
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Ehrlich and Raven (1964)<br>Thompson (1994) </p>
 </div>
 
 --- &twocol
