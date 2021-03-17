@@ -22,9 +22,13 @@ knit        : slidify::knit2slides
 > 5. Considerations
 > 6. Summary
 
----
+--- .segue h2 bg:#797979
 
-## Introduction: Big questions
+## Introduction
+
+--- 
+
+## Big questions
 
 > - How do ecological interactions shape the diversification of life?
 > - Why is parasitism so common?
@@ -43,29 +47,108 @@ National Geographic (2014)
 
 </p>
 
---- &twocol
+--- &twocolfull
 
-## Introduction: Hypotheses
+## How may parasites evade coextinction?
 
-*** {name: left}
+*** =left
 
-* Evolutionary rescue
-
-
->"Evolutionary rescue occurs when adaptive evolutionary change restores positive growth to declining populations and prevents extinction" 
+>"<b>Evolutionary rescue</b> occurs when adaptive evolutionary change restores positive growth to declining populations and prevents extinction" 
 >
 >  &mdash; @CARLSON2014521
 
-*** {name: right}
+*** =right
+> - Be less virulent
+> - Be less host-specific
+> - Speciate faster
 
-* Antagonistic coevolution btwn parasites & their hosts
+*** =fullwidth
+
+<br>
+
+--- &twocolfull
+
+## How may parasites evade coextinction?
+
+*** =left
+
+>"<b>Evolutionary rescue</b> occurs when adaptive evolutionary change restores positive growth to declining populations and prevents extinction" 
+>
+>  &mdash; @CARLSON2014521
+
+*** =right
+- Be less virulent
+- Be less host-specific
+- Speciate faster
+
+*** =fullwidth
+
+<br>
+
+## Problem
+
+Cool to think about but hard to study
+
+---
+
+## Current methods
+
+---
+
+## Current methods
+
+- Do not incorporate reciprocal selective pressures
+
+---
+
+## Current methods
+
+- Do not incorporate reciprocal selective pressures
+
+> - Neglect antagonistic coevolution btwn parasites & their hosts
 
 ![red-queen](assets/img/redQueen.jpeg)
 <center>![arms-race](assets/img/arms-race.png)</center>
 
+--- 
+
+## Escape-and-radiate coevolution
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Ehrlich and Raven (1964)<br>Thompson (1994) </p>
+</div>
+
 --- &twocol
 
-## Introduction: Escape-and-radiate coevolution
+## Escape-and-radiate coevolution
+
+> "In escape-and-radiate coevolution, coevolution happens at key moments to drive the evolution of plant defenses and insect counter-defenses, and then other speciation processes (e.g., allopatric speciation) come into play as plants and insects increase their geographic ranges or further subdivide resources."
+>
+>  &mdash; Althoff, Segraves, and Johnson (2014)
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Ehrlich and Raven (1964)<br>Thompson (1994) </p>
+</div>
+
+--- &twocol
+
+## Escape-and-radiate coevolution
+
+> "In escape-and-radiate coevolution, coevolution happens at key moments to drive the evolution of plant defenses and insect counter-defenses, and then other speciation processes (e.g., allopatric speciation) come into play as plants and insects increase their geographic ranges or further subdivide resources."
+>
+>  &mdash; Althoff, Segraves, and Johnson (2014)
+
+*** {name: left}
+
+<H3 align="left">Let's say we start with</H3>
+![starting](assets/img/starting.png)
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Ehrlich and Raven (1964)<br>Thompson (1994) </p>
+</div>
+
+--- &twocol
+
+## Escape-and-radiate coevolution
 
 > "In escape-and-radiate coevolution, coevolution happens at key moments to drive the evolution of plant defenses and insect counter-defenses, and then other speciation processes (e.g., allopatric speciation) come into play as plants and insects increase their geographic ranges or further subdivide resources."
 >
@@ -82,6 +165,26 @@ National Geographic (2014)
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Ehrlich and Raven (1964)<br>Thompson (1994) </p>
 </div>
+
+--- .segue h2 bg:#797979
+
+## Developing a new model for a classic hypothesis
+
+--- .segue h2 bg:#797979
+
+## Quantifying the role of coevolution <br>in lineage diversification
+
+--- .segue h2 bg:#797979
+
+## Software process meets the scientific method
+
+--- .segue h2 bg:#797979
+
+## Considerations
+
+--- .segue h2 bg:#797979
+
+## Summary
 
 --- &twocol
 
