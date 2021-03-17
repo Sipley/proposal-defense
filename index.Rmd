@@ -22,7 +22,7 @@ knit        : slidify::knit2slides
 > 5. Considerations
 > 6. Summary
 
---- .segue h2 bg:#797979
+--- .segue bg:#193441
 
 ## Introduction
 
@@ -166,23 +166,23 @@ Cool to think about but hard to study
 <p style="font-size: 20px"; align="right">Ehrlich and Raven (1964)<br>Thompson (1994) </p>
 </div>
 
---- .segue h2 bg:#797979
+--- .segue bg:#193441
 
 ## Developing a new model for a classic hypothesis
 
---- .segue h2 bg:#797979
+--- .segue bg:#193441
 
 ## Quantifying the role of coevolution <br>in lineage diversification
 
---- .segue h2 bg:#797979
+--- .segue bg:#193441
 
 ## Software process meets the scientific method
 
---- .segue h2 bg:#797979
+--- .segue bg:#193441
 
 ## Considerations
 
---- .segue h2 bg:#797979
+--- .segue bg:#193441
 
 ## Summary
 
