@@ -22,7 +22,7 @@ knit        : slidify::knit2slides
 > 5. Considerations
 > 6. Summary
 
---- .segue bg:#193441
+--- .segue bg:#CC2904
 
 ## Introduction
 
@@ -166,23 +166,23 @@ Cool to think about but hard to study
 <p style="font-size: 20px"; align="right">Ehrlich and Raven (1964)<br>Thompson (1994) </p>
 </div>
 
---- .segue bg:#193441
+--- .segue bg:#CC2904
 
 ## Developing a new model for a classic hypothesis
 
---- .segue bg:#193441
+--- .segue bg:#CC2904
 
 ## Quantifying the role of coevolution <br>in lineage diversification
 
---- .segue bg:#193441
+--- .segue bg:#CC2904
 
 ## Software process meets the scientific method
 
---- .segue bg:#193441
+--- .segue bg:#CC2904
 
 ## Considerations
 
---- .segue bg:#193441
+--- .segue bg:#CC2904
 
 ## Summary
 
@@ -215,4 +215,13 @@ Kelly Martin, Ian Oiler, Malia Santos, David Sneddon
 
 <b>Co-working friends</b><br>
 Chava Castaneda, Clint Elg, Yesol Sapozhnikov, Courtney Schreiner, Hannah Smith, Amanda Stahlke
+
+--- {
+ tpl: thankyou,
+ social: [{title: email, href: "sipl0809@vandals.uidaho.edu"}]
+}
+
+## Thank You
+
+Any questions?
  
