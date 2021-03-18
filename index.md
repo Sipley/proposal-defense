@@ -232,6 +232,131 @@ bottom:15px;" width="80%">
 <p style="font-size: 20px"; align="right">Engelstadter & Fortuna (2019)</p>
 </div>
 
+---
+
+## Methods
+
+Parameters of interest
+- $\beta$: baseline parasite host shift rate
+- $\nu$: parasite extinction rate
+- $\kappa$: parasite speciation rate w/in hosts
+- $\theta_S$: effect of parasite on host speciation
+- $\theta_E$: effect of parasite on host extinction
+
+--- &twocol
+
+## Predictions
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Simulations performed in `cophy`<br>
+$\kappa = 0$, $\theta_S = 0.1$, $\beta = 0$<br>
+Top: $\nu = 0$<br>
+Bottom: $\nu = 2$</p>
+</div>
+
+*** =left
+
+- Greater host diversification following parasite extinction under escape-and-radiate 
+
+*** =right
+
+<img src="assets/img/nu.png" style="position:absolute; 
+float:left; 
+right:5px; 
+bottom:15px;" width="50%">
+
+---
+
+## Now what?
+
+> 1. Simulate datasets under null and escape-and-radiate models 
+> 2. Analyze datasets using coevolutionary methods
+> 3. Identify which coevolutionary methods can tell them apart
+
+---
+
+## Now what?
+
+1. Simulate datasets under null and escape-and-radiate models 
+2. Analyze datasets using coevolutionary methods
+3. Identify which coevolutionary methods can tell them apart
+
+## Warning
+
+- We're about to go through lots of methods, so hold tight!
+- For each, I will
+    - Describe method
+    - Pose predictions
+
+---
+
+## Time-split
+
+- Compare point statistics before and after "escape" events; compare overall summary statistics
+
+    - Diversification rate ($r$) and relative extinction rate ($\epsilon$)
+    - Lineage through time plots
+    - Tree shape summary stats (e.g., spectral densities): `RPANDA`
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Morlon et al (2016)</p>
+</div>
+
+---
+
+## Time-split: Predictions
+
+- Similar $r$ but higher $\epsilon$ under escape-and-radiate
+- More "bursts" evident in LTT plots
+- Trees less balanced, more pectinate
+- Escape-and-radiate events fall out as peaks in the spectral densities
+
+--- 
+
+## Cophylogeny reconstruction
+
+<b>Distance-based</b>
+
+<img src="assets/img/paco.png" title="plot of chunk paco" alt="plot of chunk paco" width="79%" style="display: block; margin: auto 0 auto auto;" />
+<div style="position: absolute; top: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="left">Balbuena et al (2013)<br>Hutchinson et al (2017)</p>
+</div>
+
+
+--- &twocol
+
+## Cophylogeny reconstruction
+
+<b>Event-based</b>
+
+<div style="position: absolute; top: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="left">Engelstadter & Fortuna (2019)<br>Conow et al (2010)</p>
+</div>
+
+*** =left
+
+<img src="assets/fig/cophy-sim-1.png" title="plot of chunk cophy-sim" alt="plot of chunk cophy-sim" width="94%" style="display: block; margin: auto 0 auto auto;" />
+
+*** =right
+
+![jane](assets/img/jane.png)
+
+--- &twocol
+
+## Cophylogeny reconstruction: Predictions
+
+*** =left
+
+<b>Distance-based</b>
+
+- `paco` will infer greater phylogenetic congruence under escape-and-radiate
+
+*** =right 
+
+<b>Event-based</b>
+
+- `Jane` will underestimate host-shift events under escape-and-radiate
+
 --- .segue h2 bg:darkslategray
 
 ## Quantifying the role of coevolution <br>in lineage diversification

@@ -599,7 +599,292 @@ bottom:15px;" width="80%"></p>
 
 </slide>
 
-<slide class="segue" id="slide-19" style="background:darkslategray;">
+<slide class="" id="slide-19" style="background:;">
+  
+  <hgroup>
+    <h2>Methods</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p>Parameters of interest</p>
+
+<ul>
+<li>\(\beta\): baseline parasite host shift rate</li>
+<li>\(\nu\): parasite extinction rate</li>
+<li>\(\kappa\): parasite speciation rate w/in hosts</li>
+<li>\(\theta_S\): effect of parasite on host speciation</li>
+<li>\(\theta_E\): effect of parasite on host extinction</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 50px; bottom: 20px; z-index:100">
+<img src = "assets/img/logo.png" width="20%" alt="">
+</div>
+</footer>
+
+</slide>
+
+<slide class="" id="slide-20" style="background:;">
+  
+  <hgroup>
+    <h2>Predictions</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Simulations performed in `cophy`<br>
+$\kappa = 0$, $\theta_S = 0.1$, $\beta = 0$<br>
+Top: $\nu = 0$<br>
+Bottom: $\nu = 2$</p>
+</div>
+
+<div style='float:left;width:48%;' class='centered'>
+  <ul>
+<li>Greater host diversification following parasite extinction under escape-and-radiate </li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="assets/img/nu.png" style="position:absolute; 
+float:left; 
+right:5px; 
+bottom:15px;" width="50%"></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 50px; bottom: 20px; z-index:100">
+<img src = "assets/img/logo.png" width="20%" alt="">
+</div>
+</footer>
+
+</slide>
+
+<slide class="" id="slide-21" style="background:;">
+  
+  <hgroup>
+    <h2>Now what?</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <ol class = "build incremental">
+<li>Simulate datasets under null and escape-and-radiate models </li>
+<li>Analyze datasets using coevolutionary methods</li>
+<li>Identify which coevolutionary methods can tell them apart</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 50px; bottom: 20px; z-index:100">
+<img src = "assets/img/logo.png" width="20%" alt="">
+</div>
+</footer>
+
+</slide>
+
+<slide class="" id="slide-22" style="background:;">
+  
+  <hgroup>
+    <h2>Now what?</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <ol>
+<li>Simulate datasets under null and escape-and-radiate models </li>
+<li>Analyze datasets using coevolutionary methods</li>
+<li>Identify which coevolutionary methods can tell them apart</li>
+</ol>
+
+<h2>Warning</h2>
+
+<ul>
+<li>We&#39;re about to go through lots of methods, so hold tight!</li>
+<li>For each, I will
+
+<ul>
+<li>Describe method</li>
+<li>Pose predictions</li>
+</ul></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 50px; bottom: 20px; z-index:100">
+<img src = "assets/img/logo.png" width="20%" alt="">
+</div>
+</footer>
+
+</slide>
+
+<slide class="" id="slide-23" style="background:;">
+  
+  <hgroup>
+    <h2>Time-split</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <ul>
+<li><p>Compare point statistics before and after &quot;escape&quot; events; compare overall summary statistics</p>
+
+<ul>
+<li>Diversification rate (\(r\)) and relative extinction rate (\(\epsilon\))</li>
+<li>Lineage through time plots</li>
+<li>Tree shape summary stats (e.g., spectral densities): <code>RPANDA</code></li>
+</ul></li>
+</ul>
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Morlon et al (2016)</p>
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 50px; bottom: 20px; z-index:100">
+<img src = "assets/img/logo.png" width="20%" alt="">
+</div>
+</footer>
+
+</slide>
+
+<slide class="" id="slide-24" style="background:;">
+  
+  <hgroup>
+    <h2>Time-split: Predictions</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <ul>
+<li>Similar \(r\) but higher \(\epsilon\) under escape-and-radiate</li>
+<li>More &quot;bursts&quot; evident in LTT plots</li>
+<li>Trees less balanced, more pectinate</li>
+<li>Escape-and-radiate events fall out as peaks in the spectral densities</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 50px; bottom: 20px; z-index:100">
+<img src = "assets/img/logo.png" width="20%" alt="">
+</div>
+</footer>
+
+</slide>
+
+<slide class="" id="slide-25" style="background:;">
+  
+  <hgroup>
+    <h2>Cophylogeny reconstruction</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><b>Distance-based</b></p>
+
+<p><img src="assets/img/paco.png" title="plot of chunk paco" alt="plot of chunk paco" width="79%" style="display: block; margin: auto 0 auto auto;" /></p>
+
+<div style="position: absolute; top: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="left">Balbuena et al (2013)<br>Hutchinson et al (2017)</p>
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 50px; bottom: 20px; z-index:100">
+<img src = "assets/img/logo.png" width="20%" alt="">
+</div>
+</footer>
+
+</slide>
+
+<slide class="" id="slide-26" style="background:;">
+  
+  <hgroup>
+    <h2>Cophylogeny reconstruction</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><b>Event-based</b></p>
+
+<div style="position: absolute; top: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="left">Engelstadter & Fortuna (2019)<br>Conow et al (2010)</p>
+</div>
+
+<div style='float:left;width:48%;' class='centered'>
+  <p><img src="assets/fig/cophy-sim-1.png" title="plot of chunk cophy-sim" alt="plot of chunk cophy-sim" width="94%" style="display: block; margin: auto 0 auto auto;" /></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="assets/img/jane.png" alt="jane"></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 50px; bottom: 20px; z-index:100">
+<img src = "assets/img/logo.png" width="20%" alt="">
+</div>
+</footer>
+
+</slide>
+
+<slide class="" id="slide-27" style="background:;">
+  
+  <hgroup>
+    <h2>Cophylogeny reconstruction: Predictions</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><b>Distance-based</b></p>
+
+<ul>
+<li><code>paco</code> will infer greater phylogenetic congruence under escape-and-radiate</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><b>Event-based</b></p>
+
+<ul>
+<li><code>Jane</code> will underestimate host-shift events under escape-and-radiate</li>
+</ul>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 50px; bottom: 20px; z-index:100">
+<img src = "assets/img/logo.png" width="20%" alt="">
+</div>
+</footer>
+
+</slide>
+
+<slide class="segue" id="slide-28" style="background:darkslategray;">
   
   <hgroup>
     <h2>Quantifying the role of coevolution <br>in lineage diversification</h2>
@@ -619,7 +904,7 @@ bottom:15px;" width="80%"></p>
 
 </slide>
 
-<slide class="" id="slide-20" style="background:;">
+<slide class="" id="slide-29" style="background:;">
   
   <hgroup>
     <h2>Background</h2>
@@ -643,7 +928,7 @@ bottom:15px;" width="80%"></p>
 
 </slide>
 
-<slide class="" id="slide-21" style="background:;">
+<slide class="" id="slide-30" style="background:;">
   
   <hgroup>
     <h2>Hypotheses</h2>
@@ -671,7 +956,7 @@ bottom:15px;" width="80%"></p>
 
 </slide>
 
-<slide class="" id="slide-22" style="background:;">
+<slide class="" id="slide-31" style="background:;">
   
   <hgroup>
     <h2>Good news</h2>
@@ -696,7 +981,7 @@ bottom:15px;" width="80%"></p>
 
 </slide>
 
-<slide class="" id="slide-23" style="background:;">
+<slide class="" id="slide-32" style="background:;">
   
   <hgroup>
     <h2>Synthesis<br>workflow</h2>
@@ -731,7 +1016,7 @@ bottom:0px;" width="50%"></p>
 
 </slide>
 
-<slide class="" id="slide-24" style="background:;">
+<slide class="" id="slide-33" style="background:;">
   
   <hgroup>
     <h2>Scoping</h2>
@@ -757,7 +1042,7 @@ bottom:0px;" width="50%"></p>
 
 </slide>
 
-<slide class="" id="slide-25" style="background:;">
+<slide class="" id="slide-34" style="background:;">
   
   <hgroup>
     <h2>Searching</h2>
@@ -786,7 +1071,7 @@ bottom:0px;" width="50%"></p>
 
 </slide>
 
-<slide class="" id="slide-26" style="background:;">
+<slide class="" id="slide-35" style="background:;">
   
   <hgroup>
     <h2>Screening</h2>
@@ -815,7 +1100,7 @@ bottom:0px;" width="50%"></p>
 
 </slide>
 
-<slide class="" id="slide-27" style="background:;">
+<slide class="" id="slide-36" style="background:;">
   
   <hgroup>
     <h2>Coding and extracting data</h2>
@@ -845,7 +1130,7 @@ bottom:0px;" width="50%"></p>
 
 </slide>
 
-<slide class="" id="slide-28" style="background:;">
+<slide class="" id="slide-37" style="background:;">
   
   <hgroup>
     <h2>Coding and extracting data</h2>
@@ -877,7 +1162,7 @@ bottom:0px;" width="50%"></p>
 
 </slide>
 
-<slide class="" id="slide-29" style="background:;">
+<slide class="" id="slide-38" style="background:;">
   
   <hgroup>
     <h2>Meta-analysis</h2>
@@ -905,7 +1190,7 @@ bottom:0px;" width="50%"></p>
 
 </slide>
 
-<slide class="" id="slide-30" style="background:;">
+<slide class="" id="slide-39" style="background:;">
   
   <hgroup>
     <h2>Phylogenetic meta-analysis</h2>
@@ -934,7 +1219,7 @@ bottom:0px;" width="50%"></p>
 
 </slide>
 
-<slide class="" id="slide-31" style="background:;">
+<slide class="" id="slide-40" style="background:;">
   
   <hgroup>
     <h2>Phylogenetic meta-analysis</h2>
@@ -964,7 +1249,7 @@ W = DPD
 
 </slide>
 
-<slide class="" id="slide-32" style="background:;">
+<slide class="" id="slide-41" style="background:;">
   
   <hgroup>
     <h2>Phylogenetic meta-analysis</h2>
@@ -996,7 +1281,7 @@ W = DPD
 
 </slide>
 
-<slide class="" id="slide-33" style="background:;">
+<slide class="" id="slide-42" style="background:;">
   
   <hgroup>
     <h2>Challenge</h2>
@@ -1026,7 +1311,7 @@ W = DPD
 
 </slide>
 
-<slide class="" id="slide-34" style="background:;">
+<slide class="" id="slide-43" style="background:;">
   
   <hgroup>
     <h2>Focus on one partner</h2>
@@ -1061,7 +1346,7 @@ W = DPD
 
 </slide>
 
-<slide class="segue" id="slide-35" style="background:darkslategray;">
+<slide class="segue" id="slide-44" style="background:darkslategray;">
   
   <hgroup>
     <h2>Software process meets the scientific method</h2>
@@ -1081,7 +1366,7 @@ W = DPD
 
 </slide>
 
-<slide class="" id="slide-36" style="background:;">
+<slide class="" id="slide-45" style="background:;">
   
   <hgroup>
     <h2>A train-the-trainer model of computational empowerment for biologists</h2>
@@ -1112,7 +1397,7 @@ bottom:50px;" width="100%"></p>
 
 </slide>
 
-<slide class="" id="slide-37" style="background:;">
+<slide class="" id="slide-46" style="background:;">
   
   <hgroup>
     <h2>Objective</h2>
@@ -1133,7 +1418,7 @@ bottom:50px;" width="100%"></p>
 
 </slide>
 
-<slide class="" id="slide-38" style="background:;">
+<slide class="" id="slide-47" style="background:;">
   
   <hgroup>
     <h2>Objective</h2>
@@ -1163,7 +1448,7 @@ bottom:50px;" width="100%"></p>
 
 </slide>
 
-<slide class="" id="slide-39" style="background:;">
+<slide class="" id="slide-48" style="background:;">
   
   <hgroup>
     <h2>VIP <br> Phases</h2>
@@ -1187,7 +1472,7 @@ bottom:50px;" width="22%"></p>
 
 </slide>
 
-<slide class="" id="slide-40" style="background:;">
+<slide class="" id="slide-49" style="background:;">
   
   <hgroup>
     <h2>Conceptual<br>framework</h2>
@@ -1216,7 +1501,7 @@ bottom:50px;" width="22%"></p>
 
 </slide>
 
-<slide class="" id="slide-41" style="background:;">
+<slide class="" id="slide-50" style="background:;">
   
   <hgroup>
     <h2>Learning objectives</h2>
@@ -1240,7 +1525,7 @@ bottom:0px;" width="82%"></p>
 
 </slide>
 
-<slide class="" id="slide-42" style="background:;">
+<slide class="" id="slide-51" style="background:;">
   
   <hgroup>
     <h2>Recruitment plan</h2>
@@ -1277,7 +1562,7 @@ bottom:0px;" width="82%"></p>
 
 </slide>
 
-<slide class="" id="slide-43" style="background:;">
+<slide class="" id="slide-52" style="background:;">
   
   <hgroup>
     <h2>Research goals</h2>
@@ -1305,7 +1590,7 @@ bottom:0px;" width="82%"></p>
 
 </slide>
 
-<slide class="" id="slide-44" style="background:;">
+<slide class="" id="slide-53" style="background:;">
   
   <hgroup>
     <h2>Data acquisition</h2>
@@ -1339,7 +1624,7 @@ bottom:0px;" width="82%"></p>
 
 </slide>
 
-<slide class="" id="slide-45" style="background:;">
+<slide class="" id="slide-54" style="background:;">
   
   <hgroup>
     <h2>Ethics</h2>
@@ -1367,7 +1652,7 @@ bottom:0px;" width="82%"></p>
 
 </slide>
 
-<slide class="segue" id="slide-46" style="background:darkslategray;">
+<slide class="segue" id="slide-55" style="background:darkslategray;">
   
   <hgroup>
     <h2>Considerations</h2>
@@ -1387,7 +1672,7 @@ bottom:0px;" width="82%"></p>
 
 </slide>
 
-<slide class="" id="slide-47" style="background:;">
+<slide class="" id="slide-56" style="background:;">
   
   <hgroup>
     <h2>Funding</h2>
@@ -1412,7 +1697,7 @@ bottom:0px;" width="82%"></p>
 
 </slide>
 
-<slide class="" id="slide-48" style="background:;">
+<slide class="" id="slide-57" style="background:;">
   
   <hgroup>
     <h2>Future directions</h2>
@@ -1436,7 +1721,7 @@ bottom:0px;" width="82%"></p>
 
 </slide>
 
-<slide class="segue" id="slide-49" style="background:darkslategray;">
+<slide class="segue" id="slide-58" style="background:darkslategray;">
   
   <hgroup>
     <h2>Summary</h2>
@@ -1456,7 +1741,7 @@ bottom:0px;" width="82%"></p>
 
 </slide>
 
-<slide class="" id="slide-50" style="background:;">
+<slide class="" id="slide-59" style="background:;">
   
   <hgroup>
     <h2>Intellectual merit</h2>
@@ -1481,7 +1766,7 @@ bottom:0px;" width="82%"></p>
 
 </slide>
 
-<slide class="" id="slide-51" style="background:;">
+<slide class="" id="slide-60" style="background:;">
   
   <hgroup>
     <h2>Broader impacts</h2>
@@ -1510,7 +1795,7 @@ bottom:0px;" width="82%"></p>
 
 </slide>
 
-<slide class="" id="slide-52" style="background:;">
+<slide class="" id="slide-61" style="background:;">
   
   <hgroup>
     <h2>Acknowledgements</h2>
@@ -1558,7 +1843,7 @@ Chava Castaneda, Clint Elg, Yesol Sapozhnikov, Courtney Schreiner, Hannah Smith,
 
 </slide>
 
-<slide class="thank-you-slide segue nobackground" id="slide-53">
+<slide class="thank-you-slide segue nobackground" id="slide-62">
   <aside class="gdbar right"><img src="assets/img/logo.png"></aside>
     <article class="flexbox vleft auto-fadein">
       <h2>Thank You</h2>
@@ -1705,246 +1990,309 @@ Chava Castaneda, Clint Elg, Yesol Sapozhnikov, Courtney Schreiner, Hannah Smith,
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=19 title='Quantifying the role of coevolution <br>in lineage diversification'>
+        data-slide=19 title='Methods'>
          19
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=20 title='Background'>
+        data-slide=20 title='Predictions'>
          20
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=21 title='Hypotheses'>
+        data-slide=21 title='Now what?'>
          21
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=22 title='Good news'>
+        data-slide=22 title='Now what?'>
          22
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=23 title='Synthesis<br>workflow'>
+        data-slide=23 title='Time-split'>
          23
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=24 title='Scoping'>
+        data-slide=24 title='Time-split: Predictions'>
          24
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=25 title='Searching'>
+        data-slide=25 title='Cophylogeny reconstruction'>
          25
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=26 title='Screening'>
+        data-slide=26 title='Cophylogeny reconstruction'>
          26
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=27 title='Coding and extracting data'>
+        data-slide=27 title='Cophylogeny reconstruction: Predictions'>
          27
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=28 title='Coding and extracting data'>
+        data-slide=28 title='Quantifying the role of coevolution <br>in lineage diversification'>
          28
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=29 title='Meta-analysis'>
+        data-slide=29 title='Background'>
          29
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=30 title='Phylogenetic meta-analysis'>
+        data-slide=30 title='Hypotheses'>
          30
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=31 title='Phylogenetic meta-analysis'>
+        data-slide=31 title='Good news'>
          31
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=32 title='Phylogenetic meta-analysis'>
+        data-slide=32 title='Synthesis<br>workflow'>
          32
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=33 title='Challenge'>
+        data-slide=33 title='Scoping'>
          33
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=34 title='Focus on one partner'>
+        data-slide=34 title='Searching'>
          34
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=35 title='Software process meets the scientific method'>
+        data-slide=35 title='Screening'>
          35
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=36 title='A train-the-trainer model of computational empowerment for biologists'>
+        data-slide=36 title='Coding and extracting data'>
          36
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=37 title='Objective'>
+        data-slide=37 title='Coding and extracting data'>
          37
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=38 title='Objective'>
+        data-slide=38 title='Meta-analysis'>
          38
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=39 title='VIP <br> Phases'>
+        data-slide=39 title='Phylogenetic meta-analysis'>
          39
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=40 title='Conceptual<br>framework'>
+        data-slide=40 title='Phylogenetic meta-analysis'>
          40
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=41 title='Learning objectives'>
+        data-slide=41 title='Phylogenetic meta-analysis'>
          41
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=42 title='Recruitment plan'>
+        data-slide=42 title='Challenge'>
          42
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=43 title='Research goals'>
+        data-slide=43 title='Focus on one partner'>
          43
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=44 title='Data acquisition'>
+        data-slide=44 title='Software process meets the scientific method'>
          44
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=45 title='Ethics'>
+        data-slide=45 title='A train-the-trainer model of computational empowerment for biologists'>
          45
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=46 title='Considerations'>
+        data-slide=46 title='Objective'>
          46
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=47 title='Funding'>
+        data-slide=47 title='Objective'>
          47
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=48 title='Future directions'>
+        data-slide=48 title='VIP <br> Phases'>
          48
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=49 title='Summary'>
+        data-slide=49 title='Conceptual<br>framework'>
          49
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=50 title='Intellectual merit'>
+        data-slide=50 title='Learning objectives'>
          50
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=51 title='Broader impacts'>
+        data-slide=51 title='Recruitment plan'>
          51
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=52 title='Acknowledgements'>
+        data-slide=52 title='Research goals'>
          52
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=53 title='Thank You'>
+        data-slide=53 title='Data acquisition'>
          53
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=54 title='Ethics'>
+         54
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=55 title='Considerations'>
+         55
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=56 title='Funding'>
+         56
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=57 title='Future directions'>
+         57
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=58 title='Summary'>
+         58
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=59 title='Intellectual merit'>
+         59
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=60 title='Broader impacts'>
+         60
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=61 title='Acknowledgements'>
+         61
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=62 title='Thank You'>
+         62
       </a>
     </li>
     
