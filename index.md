@@ -357,6 +357,32 @@ bottom:15px;" width="50%">
 
 - `Jane` will underestimate host-shift events under escape-and-radiate
 
+---
+
+## Gene tree-species tree evolution
+
+- Based on Duplication-Transfer-Loss model 
+- Duplication ~ parasite speciation<br>Transfer ~ host-shift<br>Loss ~ parasite extinction
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Satler et al (2019)<br>Dismukes et al (2020)</p>
+</div>
+
+---
+
+## Gene tree-species tree evolution
+
+- Based on Duplication-Transfer-Loss model 
+- Duplication ~ parasite speciation<br>Transfer ~ host-shift<br>Loss ~ parasite extinction
+
+## Predictions
+
+- DTL will underestimate transfer events under escape-and-radiate
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Satler et al (2019)<br>Dismukes et al (2020)</p>
+</div>
+
 --- .segue h2 bg:darkslategray
 
 ## Quantifying the role of coevolution <br>in lineage diversification
