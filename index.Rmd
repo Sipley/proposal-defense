@@ -168,6 +168,70 @@ Cool to think about but hard to study
 
 ## Developing a new model for a classic hypothesis
 
+---
+
+## Background
+
+- Exciting progress exploring evolution of host-parasite interactions via ancestral host-repertoire reconstruction
+
+## Problem
+
+- Require a fixed host phylogeny
+- Rely on phenomenological interpretations 
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Braga et al (2020, 2021)<br>Hardy (2016)<br>Kaczvinsky & Hardy (2020)</p>
+</div>
+
+---
+
+## Objectives
+
+> 1. Develop a novel quantitative model of escape-and-radiate coevolution
+> 2. Generate testable macroevolutionary predictions of the consequences of antagonistic species interactions
+> 3. Evaluate performance of methods to detect escape-and-radiate coevolution
+
+---
+
+## Quantitative model for escape-and-radiate 
+
+- M1: Assume host speciation higher after parasite extinction
+- M0: assume host diversification independent of parasite extinction
+
+---
+
+## Possible evolutionary events
+
+<img src="assets/img/evol.png" class="center" width="86%">
+
+--- &twocol
+
+## Possible coevolutionary scenarios
+
+*** =left
+
+- Successful host escape: <br>parasite extinction
+- Successful parasite escape: <br>host-shift
+
+*** =right
+
+<img src="assets/img/coevol.png" style="position:absolute; 
+float:left; 
+right:5px; 
+bottom:15px;" width="80%">
+
+---
+
+## Methods
+
+> - New `R` package `coevolve`
+> - Simulate host-parasite coevolution: `cophy`
+> - Test driven development: `testthat` and `vdiffr`
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Engelstadter & Fortuna (2019)</p>
+</div>
+
 --- .segue h2 bg:darkslategray
 
 ## Quantifying the role of coevolution <br>in lineage diversification
