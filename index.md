@@ -8,19 +8,19 @@ biglog      : logo.png
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : prettify  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
-widgets     : [bootstrap]            # {mathjax, quiz, bootstrap}
+widgets     : [bootstrap, mathjax]            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
 ## Outline
 
-> 1. Introduction 
-> 2. Developing a new model for a classic hypothesis
-> 3. Quantifying the role of coevolution in lineage diversification
-> 4. Software process meets the scientific method
-> 5. Considerations
-> 6. Summary
+1. Introduction 
+2. Developing a new model for a classic hypothesis
+3. Quantifying the role of coevolution in lineage diversification
+4. Software process meets the scientific method
+5. Considerations
+6. Summary
 
 --- .segue h2 bg:darkslategray
 
@@ -30,7 +30,8 @@ knit        : slidify::knit2slides
 
 ## Big questions
 
-> - How do ecological interactions shape the diversification of life?
+- How do ecological interactions shape the diversification of life?
+
 > - Why is parasitism so common?
 
 <img src="assets/img/zombieCrab.png" style="position:absolute; 
@@ -55,12 +56,12 @@ National Geographic (2014)
 
 >"<b>Evolutionary rescue</b> occurs when adaptive evolutionary change restores positive growth to declining populations and prevents extinction" 
 >
->  &mdash; @CARLSON2014521
+>  &mdash; Carlson, Cunningham, and Westley (2014)
 
 *** =right
 > - Be less virulent
 > - Be less host-specific
-> - Speciate faster
+> - Evolve faster
 
 *** =fullwidth
 
@@ -74,12 +75,12 @@ National Geographic (2014)
 
 >"<b>Evolutionary rescue</b> occurs when adaptive evolutionary change restores positive growth to declining populations and prevents extinction" 
 >
->  &mdash; @CARLSON2014521
+>  &mdash; Carlson, Cunningham, and Westley (2014)
 
 *** =right
 - Be less virulent
 - Be less host-specific
-- Speciate faster
+- Evolve faster
 
 *** =fullwidth
 
@@ -93,19 +94,16 @@ Cool to think about but hard to study
 
 ## Current methods
 
----
-
-## Current methods
-
-- Do not incorporate reciprocal selective pressures
+> - Distance-based / event-based
+> - Do not incorporate reciprocal selective pressures
 
 ---
 
 ## Current methods
 
+- Distance-based / event-based
 - Do not incorporate reciprocal selective pressures
-
-> - Neglect antagonistic coevolution btwn parasites & their hosts
+- Neglect antagonistic coevolution btwn parasites & their hosts
 
 ![red-queen](assets/img/redQueen.jpeg)
 <center>![arms-race](assets/img/arms-race.png)</center>
@@ -174,17 +172,354 @@ Cool to think about but hard to study
 
 ## Quantifying the role of coevolution <br>in lineage diversification
 
+---
+
+## Background
+
+> - Few phylogenetic studies interpret their observations through lens of coevolutionary theory
+> - Coevolutionary theory &#8594; interesting predictions that can be tested at the macroevolutionary scale
+
+---
+
+## Hypotheses
+
+> 1. Antagonistic coevolution promotes lineage diversification
+> 2. Mutualistic coevolution does not promote, and may even restrict, the diversification of species
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Yoder & Nuismer (2010)</p>
+</div>
+
+---
+
+## Good news
+
+Many publicly available datasets exist to test these exciting predictions 
+
+## Objective
+
+Quantify the effect of coevolution on lineage diversification using phylogenetic meta-analysis
+
+---
+
+## Synthesis<br>workflow
+
+- Preferred Reporting Items for <br>
+Systematic Review and <br>
+Meta-Analysis (PRISMA) protocol
+- `metagear`
+
+<img src="assets/img/prisma.png" style="position:absolute; 
+float:left; 
+right:0px; 
+bottom:0px;" width="50%">
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Moher et al (2015)<br>Lajeunesse (2016)</p>
+</div>
+
+---
+
+## Scoping 
+
+- Two monophyletic groups A and B 
+- Open Tree of Life
+- Interaction Web Database
+- Global Biotic Interactions database
+
+---
+
+## Searching
+
+- Develop search terms - yikes 
+- Librarian &#10003;
+- Validate search terms 
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Zeng & Wiens (2021)</p>
+</div>
+
+---
+
+## Screening
+
+- Recruit help!  (GEM3 SARE funding x2)
+- `metagear`: `effort_distribute`, `abstract_screener`
+- Follow criteria for conducting transparent meta-analyses on open data
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Culina et al (2018)<br>Lajeunesse (2016)</p>
+</div>
+
+---
+
+## Coding and extracting data
+
+- Open Tree of Life in `R`: `rotl` 
+- Phylogenetic heterogeneity!  Cool and also hard
+- Divergence time estimates: TimeTree
+- Phylogenetic similarity: `paco`
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Michonneau, Brown, & Winter (2016)<br>Kumar et al (2017)<br>Hutchinson et al (2017)</p>
+</div>
+
+---
+
+## Coding and extracting data
+
+- Estimate speciation and extinction rates: `GeoHiSSE`
+- Repeat analyses in Zeng and Wiens (2021)
+
+## Effect size
+
+Binary log-response ratio 
+
+$$\log_2(R)$$
+
+$R$ is ratio of the two diversification rates
+
+---
+
+## Meta-analysis
+
+- Goal of a meta-analysis: get average weighted effect size
+- Evaluate homogeneity of effect sizes and test for bias
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Lajeunesse (2011)</p>
+</div>
+
+---
+
+## Phylogenetic meta-analysis
+
+- Additional source of bias: pooling effect size data from multiple taxa 
+- Account for phylogenetic correlations among effect sizes: `PhyloMeta` and `metagear`
+- Based on the generalized least squares (GLS) approach
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Adams (2008)<br>Lajeunesse (2009)<br>Lajeunesse (2011)<br>Lajeunesse (2016)</p>
+</div>
+
+---
+
+## Phylogenetic meta-analysis
+
+Effects sizes are pooled, weighted by variance-covariance matrix $W$
+
+$$
+W = DPD
+$$
+$P$ diagonal matrix of phylogenetic correlations 
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Lajeunesse (2009)</p>
+</div>
+
+---
+
+## Phylogenetic meta-analysis
+
+Effects sizes are pooled, weighted by variance-covariance matrix $W$
+
+$$
+W = DPD
+$$
+$P$ diagonal matrix of phylogenetic correlations 
+
+If $P$ is identity matrix, then studies are independent
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Lajeunesse (2009)</p>
+</div>
+
+---
+
+## Challenge
+
+- We have two trees
+
+## Possible solutions
+
+- Make one tree and account for divergence between interacting phylogenies?
+- Extend framework to include cophylogenetic reconciliations?
+
+---
+
+## Focus on one partner
+
+- Test importance of type of interaction over other characteristics as predictor of diversification
+- Phylogenetic divergence btwn interacting phylogenetics, taxonomic identity, relationship to partner, relative extinction rates
+
+## Predictions
+
+- Parasitism affects diversification differently in plants than in animals
+- Parasitism affects diversification differently in hosts than in parasites 
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Carmona, Lajeunesse, & Johnson (2011)</p>
+</div>
+
 --- .segue h2 bg:darkslategray
 
 ## Software process meets the scientific method
+
+---
+
+## A train-the-trainer model of computational empowerment for biologists
+
+> - Technology &#8594; data!
+> - Cumbersome datasets
+> - Foundational computational tools &#10003;
+> - Now what &#63;
+
+<img src="assets/img/software.png" style="position:absolute; 
+float:left; 
+right:0px; 
+bottom:50px;" width="100%">
+
+---
+
+## Objective
+
+To specifically tailor development of a new <b>Vertically Integrated Project (VIP) course</b> focusing on how software process tools such as <em>version control</em> and <em>test-driven development</em> can help meet the needs of researchers while supporting the reproducibility of science
+
+---
+
+## Objective
+
+To specifically tailor development of a new <b>Vertically Integrated Project (VIP) course</b> focusing on how software process tools such as <em>version control</em> and <em>test-driven development</em> can help meet the needs of researchers while supporting the reproducibility of science
+
+## Overview
+
+> - Work with EPSCoR researchers to identify a suitable problem and dataset
+> - Create modules to walk through solving problem using software process
+> - Self-sustaining by design
+> - Help train a diverse workforce
+
+---
+
+## VIP <br> Phases 
+
+<img src="assets/img/modules.png" style="position:absolute; 
+float:right; 
+left:50px; 
+bottom:50px;" width="22%">
+
+---
+
+## Conceptual<br>framework
+
+<img src="assets/img/conceptual-framework.png" style="position:absolute; 
+float:left; 
+right:0px; 
+bottom:0px;" width="73%">
+
+<img src="assets/img/modules.png" style="position:absolute; 
+float:right; 
+left:50px; 
+bottom:50px;" width="22%">
+
+---
+
+## Learning objectives
+
+<img src="assets/img/learning-objectives.png" style="position:absolute; 
+float:left; 
+right:0px; 
+bottom:0px;" width="82%">
+
+---
+
+## Recruitment plan
+
+- Cohort A
+    - Certified Carpentry instructors
+    - IMCI-spnosored Carpentries workshops
+    - Flyer distributed via COGS, IBEST, IMCI, CNR, EPSCoR GEM3
+- Cohort B
+    - Undergraduate research
+    - SSS-TRiO
+    - SACNAS
+    - Palouse Pathways
+
+---
+
+## Research goals
+
+- Consult with EPSCoR affiliates to identify a suitable research problem to tackle via this course module
+
+> - Erect a novel pedagogical framework for teaching computational skills to biological researchers
+> - Science education paper introducing the new train-the-trainer model, how it was implemented, and how it went
+
+---
+
+## Data acquisition
+
+- Survey participants' confidence before and after course in 
+    - Writing code to analyze large, cumbersome datasets
+    - Teaching computational skills to novices and intermediate learners 
+
+> - Collaborate with others to identify other metrics for comparison (e.g., extent to which learning objectives met) 
+> - Examine the reproducibility of code
+> - Assess extent to which product meets the desired requirements 
+
+---
+
+## Ethics
+
+- IRB (Human Research Protections) Coordinator at UI
+- Likely will fall under Exempt Category 1 or 2
+- Human subjects training
+- All research data will be handled and stored securely
+- All participation will be voluntary (Informed Conent Form) 
+- Responsible Conduct of Research training 
 
 --- .segue h2 bg:darkslategray
 
 ## Considerations
 
+---
+
+## Funding
+
+> - Secured
+
+> - Fending
+
+> - Promising
+
+---
+
+## Future directions
+
+> 1. Assess the extent to which, and under what circumstances, escape-and-radiate coevolution emerge across the tree of life
+> 2. Extending `coevolve` to include additional models
+
 --- .segue h2 bg:darkslategray
 
 ## Summary
+
+---
+
+## Intellectual merit
+
+> 1. First-author paper evaluating relative performance of methods in detecting escape-and-radiate coevolution
+> 2. Phylogenetic meta-analysis quantifying role of coevolution on lineage diversification
+> 3. Pedagogical innovation paper introducing train-the-train model of computational empowerment for biologists
+
+---
+
+## Broader impacts
+
+> 1. `R` package for simulating and detecting escape-and-radiate coevolution
+> 2. Cophylogenetic comparative framework
+> 3. Empowerment of more diverse and inclusive professoriate
+> 4. Reproducibility of science 
+> 5. Increased computational literacy of biologists
+> 6. Independent research experiences for 3 undergraduates
+> 7. Doctoral training for me
 
 --- &twocol
 
