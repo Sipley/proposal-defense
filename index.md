@@ -273,7 +273,7 @@ Compare point statistics before and after "escape" events & overall summary stat
 - Lineage through time plots
 - Tree shape summary stats: `RPANDA`
 
-<div style="position: absolute; bottom: 4em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<div style="position: absolute; bottom: 4em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Morlon et al (2016)</p>
 </div>
 
@@ -290,7 +290,7 @@ Compare point statistics before and after "escape" events & overall summary stat
     - `trees less balanced, more pectinate`
     - `escape-and-radiate events fall out as peaks in spectral densities`
 
-<div style="position: absolute; bottom: 4em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<div style="position: absolute; bottom: 4em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Morlon et al (2016)</p>
 </div>
 
