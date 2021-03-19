@@ -194,7 +194,7 @@ bottom:20px;" width="70%">
 
 ## Quantitative model for escape-and-radiate 
 
-- M0: Host diversification independent of parasite extinction
+- M0: Host speciation independent of parasite extinction
 - M1: Host speciation higher after parasite extinction
 
 ---
