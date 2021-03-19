@@ -81,7 +81,7 @@ knit        : slidify::knit2slides
 - Assume cospeciation as null model
 - Use analogy 
 
-> - <b>Neglect antagonistic coevolution</b>
+> - <b>Neglect reciprocal selective pressures</b>
 
 --- 
 
@@ -869,7 +869,7 @@ bottom:50px;" width="22%">
 <img src="assets/img/conceptual-framework.png" style="position:absolute; 
 float:left; 
 right:0px; 
-bottom:0px;" width="73%">
+bottom:0px;" width="71%">
 
 <img src="assets/img/modules.png" style="position:absolute; 
 float:right; 
