@@ -48,17 +48,6 @@ knit        : slidify::knit2slides
 <p style="font-size: 20px"; align="right">Ehrlich and Raven (1964)<br>Weinstein & Kuris (2016)</p>
 </div>
 
----
-
-## How may parasites evade coextinction?
-
-- Be less virulent
-- Promote host reproduction
-- Be less host-specific
-- Evolve faster
-
-![red-queen](assets/img/redQueen.jpeg)
-
 --- 
 
 ## Problem
@@ -335,7 +324,7 @@ bottom:80px;" width="62%">
 <p style="font-size: 20px"; align="left">Balbuena et al (2013)<br>Hutchinson et al (2017)</p>
 </div>
 
-<br><br><br>
+<br><br>
 
 `Greater phylogenetic`<br>
 `congruence under` <br>
@@ -353,13 +342,13 @@ bottom:80px;" width="62%">
 
 <img src="assets/img/cophy.png" style="position:absolute; 
 float:left; 
-left:85px; 
-bottom:155px;" width="35%">
+left:115px; 
+bottom:205px;" width="30%">
 
 <img src="assets/img/jane.png" style="position:absolute; 
 float:left; 
 right:0px; 
-bottom:115px;" width="45%">
+bottom:185px;" width="40%">
 
 ---
 
@@ -373,46 +362,47 @@ bottom:115px;" width="45%">
 
 <img src="assets/img/cophy.png" style="position:absolute; 
 float:left; 
-left:85px; 
-bottom:155px;" width="35%">
+left:115px; 
+bottom:205px;" width="30%">
 
 <img src="assets/img/jane.png" style="position:absolute; 
 float:left; 
 right:0px; 
-bottom:115px;" width="45%">
+bottom:185px;" width="40%">
 
 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
 
-`Host-shift events will be underestimated under escape-and-radiate`
+- `Host-shift events will be underestimated under escape-and-radiate`
 
 ---
 
-## Gene tree-species tree evolution
+## Cophylogeny reconstruction
 
-- Based on Duplication-Transfer-Loss model 
-- Duplication ~ parasite speciation<br>Transfer ~ host-shift<br>Loss ~ parasite extinction
+<b>Event-based</b>
 
-<br>
-
-
-<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Satler et al (2019)<br>Dismukes et al (2020)</p>
+<div style="position: absolute; top: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="left">Engelstadter & Fortuna (2019)<br>Conow et al (2010)</p>
 </div>
 
----
+<img src="assets/img/cophy.png" style="position:absolute; 
+float:left; 
+left:115px; 
+bottom:205px;" width="30%">
 
-## Gene tree-species tree evolution
+<img src="assets/img/jane.png" style="position:absolute; 
+float:left; 
+right:0px; 
+bottom:185px;" width="40%">
 
-- Based on Duplication-Transfer-Loss model 
-- Duplication ~ parasite speciation<br>Transfer ~ host-shift<br>Loss ~ parasite extinction
 
-<br>
+<br><br><br><br><br><br><br>
 
-`DTL will underestimate transfer events under escape-and-radiate`
+- `Host-shift events will be underestimated under escape-and-radiate`
+- `Same for gene tree-species tree methods`
 
-<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Satler et al (2019)<br>Dismukes et al (2020)</p>
+<div style="position: absolute; bottom: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;" align="left">
+<p style="font-size: 20px">Satler et al (2019)</p>
 </div>
 
 --- 
