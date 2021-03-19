@@ -595,7 +595,15 @@ bottom:0px;" width="50%">
 ## Coding and extracting data
 
 - Estimate speciation and extinction rates: `GeoHiSSE`
-- Code additional covariates (e.g., $\epsilon$, is a plant, genome size)
+- Include potential covariates (e.g., $\epsilon$, is it a plant, is it a host, genome size)
+- Repeat analyses in Zeng and Wiens (2021)
+
+---
+
+## Coding and extracting data
+
+- Estimate speciation and extinction rates: `GeoHiSSE`
+- Include potential covariates (e.g., $\epsilon$, is it a plant, is it a host, genome size)
 - Repeat analyses in Zeng and Wiens (2021)
 
 ## Effect size
@@ -777,8 +785,8 @@ bottom:50px;" width="22%">
 
 <img src="assets/img/learning-objectives.png" style="position:absolute; 
 float:left; 
-right:5px; 
-bottom:15px;" width="73%">
+right:85px; 
+bottom:55px;" width="70%">
 
 --- &twocol
 
