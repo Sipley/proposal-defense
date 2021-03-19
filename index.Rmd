@@ -84,7 +84,7 @@ knitr::include_graphics('assets/img/arms-race.png')
 - Assume cospeciation as null model
 - Use analogy 
 
-> - <b>Neglect antagonistic coevolution</b>
+> - <b>Neglect reciprocal selective pressures</b>
 
 --- 
 
