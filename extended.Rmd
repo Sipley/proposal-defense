@@ -76,6 +76,110 @@ bottom:25px;" width="78%">
 
 ## Models of diversification
 
+<b>BiSSE</b>
+
+Code HP as binary vector of length(number of H)
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Maddison, Midford, & Otto (2007)</p>
+</div>
+
+---
+
+## Models of diversification
+
+<b>BiSSE</b>
+
+Code HP as binary vector of length(number of H)
+
+- `Branches descending from nodes with fewer parasite associations occupy the accelerated rate class`
+- `Overestimate significance`
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Maddison, Midford, & Otto (2007)</p>
+</div>
+
+---
+
+## Models of diversification
+
+<b>HiSSE</b>
+
+<img src="assets/img/hisse.png" style="position:absolute; 
+float:left; 
+right:5px; 
+bottom:95px;" width="65%">
+
+<div style="position: absolute; top: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Figure directly from<br>Beaulieu & O’Meara (2016)</p>
+</div>
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Rabosky and Goldberg (2017)</p>
+</div>
+
+---
+
+## Models of diversification
+
+<b>HiSSE</b>
+
+<img src="assets/img/hisse.png" style="position:absolute; 
+float:left; 
+right:5px; 
+bottom:95px;" width="65%">
+
+<div style="position: absolute; top: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Figure directly from<br>Beaulieu & O’Meara (2016)</p>
+</div>
+
+- `Low power`<br>
+`to detect` <br>
+`trait-dependent`<br>
+`extinction` <br>
+- `Infer changes in`<br>
+`rate classes w/`<br>
+`greater certainty`<br>
+`for H than P`
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Rabosky and Goldberg (2017)</p>
+</div>
+
+---
+
+## Models of diversification
+
+<b>Geo(Hi)SSE</b>
+
+Likelihood calculated using DEC only reflects evolution of ranges (host-repertoires) and treats trees as fixed, which can be problematic when jump dispersal events are allowed
+
+- Apply geographic SSE models: `GeoSSE`
+- Allow geographic range evolution independent of focal trait: `GeoHiSSE`
+
+<div style="position: absolute; bottom: 5em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Caetano, O'Meara, & Beaulieu (2018)<br>Ree & Sanmartin (2018)<br>Goldberg, Lancaster, & Ree (2011)</p>
+</div>
+
+---
+
+## Models of diversification
+
+<b>Geo(Hi)SSE</b>
+
+Likelihood calculated using DEC only reflects evolution of ranges (host-repertoires) and treats trees as fixed, which can be problematic when jump dispersal events are allowed
+
+- Apply geographic SSE models: `GeoSSE`
+- Allow geographic range evolution independent of focal trait: `GeoHiSSE`
+
+`GeoHiSSE will reconstruct coevolution under escape-and-radiate most accurately`
+
+<div style="position: absolute; bottom: 5em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Caetano, O'Meara, & Beaulieu (2018)<br>Ree & Sanmartin (2018)<br>Goldberg, Lancaster, & Ree (2011)</p>
+</div>
+
+## Models of diversification
+
 <b>HiSSE</b>
 
 Diversification models that do not account for unmeasured traits are inappropriate to assess relationships between mutualism and ant diversification
