@@ -194,8 +194,8 @@ knitr::include_graphics('assets/img/arms-race.png')
 
 *** =left
 
-> - <b>Host "escape":</b> <br>parasite extinction
-> - <b>Parasite "escape": </b> <br>host-shift
+> - P extinction &#8594; H "escape"
+> - P host-shift &#8594; P "escape"
 
 *** =right
 
@@ -272,20 +272,20 @@ bottom:15px;" width="50%">
 
 ## Generate testable macroevolutionary predictions under escape-and-radiate coevolution
 
-> 1. Simulate datasets under null and escape-and-radiate models 
-> 2. Analyze datasets using suite of coevolutionary methods 
-> 3. Evaluate to what extent methods can tell them apart
+1. Simulate datasets under null and escape-and-radiate models 
+2. Analyze datasets using suite of coevolutionary methods 
+3. Evaluate to what extent methods can tell them apart
 
 ---
 
 ## Time-split
 
-- Compare point statistics before and after "escape" events & overall summary statistics
+Compare point statistics before and after "escape" events & overall summary statistics
 
-    - Diversification rate ($r$)
-    - Relative extinction rate ($\epsilon$)
-    - Lineage through time plots
-    - Tree shape summary stats: `RPANDA`
+- Diversification rate ($r$)
+- Relative extinction rate ($\epsilon$)
+- Lineage through time plots
+- Tree shape summary stats: `RPANDA`
 
 <div style="position: absolute; bottom: 4em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Morlon et al (2016)</p>
@@ -295,14 +295,14 @@ bottom:15px;" width="50%">
 
 ## Time-split
 
-- Compare point statistics before and after "escape" events & overall summary statistics
+Compare point statistics before and after "escape" events & overall summary statistics
 
-    - Diversification rate ($r$) - `similar`
-    - Relative extinction rate ($\epsilon$) - `higher under escape-and-radiate`
-    - Lineage through time plots - `more "bursts"`
-    - Tree shape summary stats: `RPANDA` 
-        - `trees less balanced, more pectinate`
-        - `escape-and-radiate events fall out as peaks in spectral densities`
+- Diversification rate ($r$) - `similar`
+- Relative extinction rate ($\epsilon$) - `higher under escape-and-radiate`
+- Lineage through time plots - `more "bursts"`
+- Tree shape summary stats: `RPANDA` 
+    - `trees less balanced, more pectinate`
+    - `escape-and-radiate events fall out as peaks in spectral densities`
 
 <div style="position: absolute; bottom: 4em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Morlon et al (2016)</p>
@@ -397,6 +397,9 @@ bottom:115px;" width="45%">
 - Based on Duplication-Transfer-Loss model 
 - Duplication ~ parasite speciation<br>Transfer ~ host-shift<br>Loss ~ parasite extinction
 
+<br>
+
+
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Satler et al (2019)<br>Dismukes et al (2020)</p>
 </div>
@@ -408,9 +411,10 @@ bottom:115px;" width="45%">
 - Based on Duplication-Transfer-Loss model 
 - Duplication ~ parasite speciation<br>Transfer ~ host-shift<br>Loss ~ parasite extinction
 
-## Predictions
+<br>
 
-- DTL will underestimate transfer events under escape-and-radiate
+`DTL will underestimate transfer events under`<br>
+`escape-and-radiate`
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Satler et al (2019)<br>Dismukes et al (2020)</p>
@@ -421,44 +425,45 @@ bottom:115px;" width="45%">
 ## Discrete biogeography
 
 - Extirpation ~ Host-resistance <br>Dispersal ~ New host
-- Escape-and-radiate: <br>events coupled with <br>cladogenetic events
+
 
 <img src="assets/img/dec.png" style="position:absolute; 
 float:left; 
 right:0px; 
-bottom:20px;" width="83%">
+bottom:15px;" width="80%">
 
-<div style="position: absolute; bottom: 18em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Braga et al (2020, 2021)<br>Hardy (2016)<br>Kaczvinsky & Hardy (2020)</p>
+<div style="position: absolute; top: 1em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Braga et al (2020, 2021); Hardy (2016)<br>Kaczvinsky & Hardy (2020)</p>
 </div>
 
 --- 
 
-<img src="assets/img/intmat.png" style="position:absolute; 
+## Discrete biogeography
+
+- Extirpation ~ Host-resistance <br>Dispersal ~ New host
+<br>
+
+- `Escape-and-radiate:` <br>
+`events coupled with` <br>
+`cladogenetic events`
+
+- `Host-repertoire` <br>
+`evolution higher`
+
+<img src="assets/img/dec.png" style="position:absolute; 
 float:left; 
 right:0px; 
-bottom:25px;" width="78%">
+bottom:15px;" width="80%">
 
-## Discrete biogegraphy
-
-- Host tree
-- Parasite tree
-- Interaction <br>matrix
-
-<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Braga et al (2020)</p>
+<div style="position: absolute; top: 1em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Braga et al (2020, 2021); Hardy (2016)<br>Kaczvinsky & Hardy (2020)</p>
 </div>
 
----
-
-## Discrete biogeography: Predictions
-
-- More cladogenetic events correctly inferred under escape-and-radiate
-- Host-repertoire evolution higher under escape-and-radiate
-
----
+--- 
 
 ## Models of diversification
+
+<b>In general</b>
 
 Two rates classes:
 
@@ -469,14 +474,16 @@ Two rates classes:
 
 ## Models of diversification
 
+<b>In general</b>
+
 Two rates classes:
 
 1. basal rate class
 2. accelerated rate class
 
-## Predictions
+<br>
 
-Host enter accelerated rate class after successful "escape" event
+`Host enters accelerated rate class after successful "escape" event`
 
 ---
 
@@ -484,8 +491,22 @@ Host enter accelerated rate class after successful "escape" event
 
 <b>BiSSE</b>
 
-- Branches descending from nodes with fewer parasite associations occupy the accelerated rate class
-- Overestimate significance
+Code HP as binary vector of length(number of H)
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Maddison, Midford, & Otto (2007)</p>
+</div>
+
+---
+
+## Models of diversification
+
+<b>BiSSE</b>
+
+Code HP as binary vector of length(number of H)
+
+- `Branches descending from nodes with fewer parasite associations occupy the accelerated rate class`
+- `Overestimate significance`
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Maddison, Midford, & Otto (2007)</p>
@@ -499,35 +520,12 @@ Host enter accelerated rate class after successful "escape" event
 
 <img src="assets/img/hisse.png" style="position:absolute; 
 float:left; 
-right:10px; 
-bottom:15px;" width="77%">
+right:5px; 
+bottom:95px;" width="65%">
 
-<div style="position: absolute; top: 5em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<div style="position: absolute; top: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Figure directly from<br>Beaulieu & O’Meara (2016)</p>
 </div>
-
----
-
-## Models of diversification
-
-<b>HiSSE</b>
-
-Diversification models that do not account for unmeasured traits are inappropriat to assess relationships between mutualism and ant diversification
-
-- Rejected cooperate-and-radiate
-- Lineages first radiated, then evolved plant mutualism
-
-<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Kaur et al (2019)</p>
-</div>
-
----
-
-## Models of diversification: Predictions
-
-SSE models have low power to detect trait-dependent extinction
-
-SSE models accurately infer changes in rate classes with greater certainty for host phylogenies that evolve under escape-and-radiate than parasite phylogenies
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Rabosky and Goldberg (2017)</p>
@@ -537,22 +535,61 @@ SSE models accurately infer changes in rate classes with greater certainty for h
 
 ## Models of diversification
 
-Likelihood calculated using DEC only reflects evolution of ranges (host-repertoires) and treats trees as fixed, which can be problematic when jump dispersal events are allowed
+<b>HiSSE</b>
 
-## Solution
+<img src="assets/img/hisse.png" style="position:absolute; 
+float:left; 
+right:5px; 
+bottom:95px;" width="65%">
+
+<div style="position: absolute; top: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Figure directly from<br>Beaulieu & O’Meara (2016)</p>
+</div>
+
+- `Low power`<br>
+`to detect` <br>
+`trait-dependent`<br>
+`extinction` <br>
+- `Infer changes in`<br>
+`rate classes w/`<br>
+`greater certainty`<br>
+`for H than P`
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Rabosky and Goldberg (2017)</p>
+</div>
+
+---
+
+## Models of diversification
+
+<b>Geo(Hi)SSE</b>
+
+Likelihood calculated using DEC only reflects evolution of ranges (host-repertoires) and treats trees as fixed, which can be problematic when jump dispersal events are allowed
 
 - Apply geographic SSE models: `GeoSSE`
 - Allow geographic range evolution independent of focal trait: `GeoHiSSE`
 
-<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<div style="position: absolute; bottom: 5em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Caetano, O'Meara, & Beaulieu (2018)<br>Ree & Sanmartin (2018)<br>Goldberg, Lancaster, & Ree (2011)</p>
 </div>
 
 ---
 
-## Models of diversification: Predictions
+## Models of diversification
 
-Of DEC, GeoSSE, and GeoHiSSE, expect GeoHiSSE to reconstruct coevolution under escape-and-radiate most accurately 
+<b>Geo(Hi)SSE</b>
+
+Likelihood calculated using DEC only reflects evolution of ranges (host-repertoires) and treats trees as fixed, which can be problematic when jump dispersal events are allowed
+
+- Apply geographic SSE models: `GeoSSE`
+- Allow geographic range evolution independent of focal trait: `GeoHiSSE`
+
+`GeoHiSSE will reconstruct coevolution under escape-and-radiate most accurately`
+
+<div style="position: absolute; bottom: 5em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Caetano, O'Meara, & Beaulieu (2018)<br>Ree & Sanmartin (2018)<br>Goldberg, Lancaster, & Ree (2011)</p>
+</div>
 
 --- .segue h2 bg:darkslategray
 
