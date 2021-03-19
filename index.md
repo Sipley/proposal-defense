@@ -592,6 +592,7 @@ bottom:0px;" width="50%">
 ## Coding and extracting data
 
 - Estimate speciation and extinction rates: `GeoHiSSE`
+- Code additional covariates (e.g., $\epsilon$, is a plant, genome size)
 - Repeat analyses in Zeng and Wiens (2021)
 
 ## Effect size
@@ -639,7 +640,9 @@ Effects sizes are pooled, weighted by variance-covariance matrix $W$
 $$
 W = DPD
 $$
-$P$ diagonal matrix of phylogenetic correlations 
+If $P$ is identity matrix, then studies are independent
+
+Otherwise, $P$ diagonal matrix of phylogenetic correlations
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Lajeunesse (2009)</p>
@@ -654,24 +657,13 @@ Effects sizes are pooled, weighted by variance-covariance matrix $W$
 $$
 W = DPD
 $$
-$P$ diagonal matrix of phylogenetic correlations 
-
 If $P$ is identity matrix, then studies are independent
+
+Otherwise, $P$ diagonal matrix of `phylogenetic correlations` - &#x26A0;
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Lajeunesse (2009)</p>
 </div>
-
----
-
-## Challenge
-
-- We have two trees
-
-## Possible solutions
-
-- Make one tree and account for divergence between interacting phylogenies?
-- Extend framework to include cophylogenetic reconciliations?
 
 ---
 

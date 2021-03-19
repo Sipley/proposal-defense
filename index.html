@@ -1346,6 +1346,7 @@ bottom:0px;" width="50%"></p>
   <article data-timings="">
     <ul>
 <li>Estimate speciation and extinction rates: <code>GeoHiSSE</code></li>
+<li>Code additional covariates (e.g., \(\epsilon\), is a plant, genome size)</li>
 <li>Repeat analyses in Zeng and Wiens (2021)</li>
 </ul>
 
@@ -1445,7 +1446,9 @@ bottom:0px;" width="50%"></p>
 <p>\[
 W = DPD
 \]
-\(P\) diagonal matrix of phylogenetic correlations </p>
+If \(P\) is identity matrix, then studies are independent</p>
+
+<p>Otherwise, \(P\) diagonal matrix of phylogenetic correlations</p>
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Lajeunesse (2009)</p>
@@ -1475,9 +1478,9 @@ W = DPD
 <p>\[
 W = DPD
 \]
-\(P\) diagonal matrix of phylogenetic correlations </p>
+If \(P\) is identity matrix, then studies are independent</p>
 
-<p>If \(P\) is identity matrix, then studies are independent</p>
+<p>Otherwise, \(P\) diagonal matrix of <code>phylogenetic correlations</code> - &#x26A0;</p>
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Lajeunesse (2009)</p>
@@ -1496,36 +1499,6 @@ W = DPD
 </slide>
 
 <slide class="" id="slide-47" style="background:;">
-  
-  <hgroup>
-    <h2>Challenge</h2>
-  </hgroup>
-  
-  <article data-timings="">
-    <ul>
-<li>We have two trees</li>
-</ul>
-
-<h2>Possible solutions</h2>
-
-<ul>
-<li>Make one tree and account for divergence between interacting phylogenies?</li>
-<li>Extend framework to include cophylogenetic reconciliations?</li>
-</ul>
-
-  </article>
-  <!-- Presenter Notes -->
-  
-
-<footer class = 'logo'>
-<div style="position: absolute; left: 50px; bottom: 20px; z-index:100">
-<img src = "assets/img/logo.png" width="20%" alt="">
-</div>
-</footer>
-
-</slide>
-
-<slide class="" id="slide-48" style="background:;">
   
   <hgroup>
     <h2>Focus on one partner</h2>
@@ -1553,7 +1526,7 @@ W = DPD
 
 </slide>
 
-<slide class="" id="slide-49" style="background:;">
+<slide class="" id="slide-48" style="background:;">
   
   <hgroup>
     <h2>Focus on one partner</h2>
@@ -1588,7 +1561,7 @@ W = DPD
 
 </slide>
 
-<slide class="segue" id="slide-50" style="background:darkslategray;">
+<slide class="segue" id="slide-49" style="background:darkslategray;">
   
   <hgroup>
     <h2>Software process meets the scientific method</h2>
@@ -1608,7 +1581,7 @@ W = DPD
 
 </slide>
 
-<slide class="" id="slide-51" style="background:;">
+<slide class="" id="slide-50" style="background:;">
   
   <hgroup>
     <h2>A train-the-trainer model of computational empowerment for biologists</h2>
@@ -1638,7 +1611,7 @@ bottom:50px;" width="100%"></p>
 
 </slide>
 
-<slide class="" id="slide-52" style="background:;">
+<slide class="" id="slide-51" style="background:;">
   
   <hgroup>
     <h2>A train-the-trainer model of computational empowerment for biologists</h2>
@@ -1672,7 +1645,7 @@ bottom:50px;" width="100%"></p>
 
 </slide>
 
-<slide class="" id="slide-53" style="background:;">
+<slide class="" id="slide-52" style="background:;">
   
   <hgroup>
     <h2>Objective</h2>
@@ -1693,7 +1666,7 @@ bottom:50px;" width="100%"></p>
 
 </slide>
 
-<slide class="" id="slide-54" style="background:;">
+<slide class="" id="slide-53" style="background:;">
   
   <hgroup>
     <h2>Objective</h2>
@@ -1723,7 +1696,7 @@ bottom:50px;" width="100%"></p>
 
 </slide>
 
-<slide class="" id="slide-55" style="background:;">
+<slide class="" id="slide-54" style="background:;">
   
   <hgroup>
     <h2>VIP <br> Phases</h2>
@@ -1747,7 +1720,7 @@ bottom:50px;" width="22%"></p>
 
 </slide>
 
-<slide class="" id="slide-56" style="background:;">
+<slide class="" id="slide-55" style="background:;">
   
   <hgroup>
     <h2>Conceptual<br>framework</h2>
@@ -1776,7 +1749,7 @@ bottom:50px;" width="22%"></p>
 
 </slide>
 
-<slide class="" id="slide-57" style="background:;">
+<slide class="" id="slide-56" style="background:;">
   
   <hgroup>
     <h2>Learning objectives</h2>
@@ -1800,7 +1773,7 @@ bottom:15px;" width="73%"></p>
 
 </slide>
 
-<slide class="" id="slide-58" style="background:;">
+<slide class="" id="slide-57" style="background:;">
   
   <hgroup>
     <h2>Recruitment plan</h2>
@@ -1841,7 +1814,7 @@ bottom:15px;" width="73%"></p>
 
 </slide>
 
-<slide class="" id="slide-59" style="background:;">
+<slide class="" id="slide-58" style="background:;">
   
   <hgroup>
     <h2>Research goals</h2>
@@ -1869,7 +1842,7 @@ bottom:15px;" width="73%"></p>
 
 </slide>
 
-<slide class="" id="slide-60" style="background:;">
+<slide class="" id="slide-59" style="background:;">
   
   <hgroup>
     <h2>Data acquisition</h2>
@@ -1903,7 +1876,7 @@ bottom:15px;" width="73%"></p>
 
 </slide>
 
-<slide class="" id="slide-61" style="background:;">
+<slide class="" id="slide-60" style="background:;">
   
   <hgroup>
     <h2>Data acquisition</h2>
@@ -1934,7 +1907,7 @@ bottom:15px;" width="73%"></p>
 
 </slide>
 
-<slide class="" id="slide-62" style="background:;">
+<slide class="" id="slide-61" style="background:;">
   
   <hgroup>
     <h2>Ethics</h2>
@@ -1965,7 +1938,7 @@ bottom:15px;" width="73%"></p>
 
 </slide>
 
-<slide class="segue" id="slide-63" style="background:darkslategray;">
+<slide class="segue" id="slide-62" style="background:darkslategray;">
   
   <hgroup>
     <h2>Considerations</h2>
@@ -1985,7 +1958,7 @@ bottom:15px;" width="73%"></p>
 
 </slide>
 
-<slide class="" id="slide-64" style="background:;">
+<slide class="" id="slide-63" style="background:;">
   
   <hgroup>
     <h2>Timeline</h2>
@@ -2006,7 +1979,7 @@ bottom:15px;" width="73%"></p>
 
 </slide>
 
-<slide class="" id="slide-65" style="background:;">
+<slide class="" id="slide-64" style="background:;">
   
   <hgroup>
     <h2>Future directions</h2>
@@ -2030,7 +2003,7 @@ bottom:15px;" width="73%"></p>
 
 </slide>
 
-<slide class="segue" id="slide-66" style="background:darkslategray;">
+<slide class="segue" id="slide-65" style="background:darkslategray;">
   
   <hgroup>
     <h2>Summary</h2>
@@ -2050,7 +2023,7 @@ bottom:15px;" width="73%"></p>
 
 </slide>
 
-<slide class="" id="slide-67" style="background:;">
+<slide class="" id="slide-66" style="background:;">
   
   <hgroup>
     <h2>Intellectual merit</h2>
@@ -2075,7 +2048,7 @@ bottom:15px;" width="73%"></p>
 
 </slide>
 
-<slide class="" id="slide-68" style="background:;">
+<slide class="" id="slide-67" style="background:;">
   
   <hgroup>
     <h2>Broader impacts</h2>
@@ -2103,7 +2076,7 @@ bottom:15px;" width="73%"></p>
 
 </slide>
 
-<slide class="" id="slide-69" style="background:;">
+<slide class="" id="slide-68" style="background:;">
   
   <hgroup>
     <h2>Acknowledgements</h2>
@@ -2151,7 +2124,7 @@ Chava Castaneda, Clint Elg, Yesol Sapozhnikov, Courtney Schreiner, Hannah Smith,
 
 </slide>
 
-<slide class="thank-you-slide segue nobackground" id="slide-70">
+<slide class="thank-you-slide segue nobackground" id="slide-69">
   <aside class="gdbar right"><img src="assets/img/logo.png"></aside>
     <article class="flexbox vleft auto-fadein">
       <h2>Thank You</h2>
@@ -2494,7 +2467,7 @@ Chava Castaneda, Clint Elg, Yesol Sapozhnikov, Courtney Schreiner, Hannah Smith,
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=47 title='Challenge'>
+        data-slide=47 title='Focus on one partner'>
          47
       </a>
     </li>
@@ -2508,14 +2481,14 @@ Chava Castaneda, Clint Elg, Yesol Sapozhnikov, Courtney Schreiner, Hannah Smith,
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=49 title='Focus on one partner'>
+        data-slide=49 title='Software process meets the scientific method'>
          49
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=50 title='Software process meets the scientific method'>
+        data-slide=50 title='A train-the-trainer model of computational empowerment for biologists'>
          50
       </a>
     </li>
@@ -2529,7 +2502,7 @@ Chava Castaneda, Clint Elg, Yesol Sapozhnikov, Courtney Schreiner, Hannah Smith,
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=52 title='A train-the-trainer model of computational empowerment for biologists'>
+        data-slide=52 title='Objective'>
          52
       </a>
     </li>
@@ -2543,42 +2516,42 @@ Chava Castaneda, Clint Elg, Yesol Sapozhnikov, Courtney Schreiner, Hannah Smith,
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=54 title='Objective'>
+        data-slide=54 title='VIP <br> Phases'>
          54
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=55 title='VIP <br> Phases'>
+        data-slide=55 title='Conceptual<br>framework'>
          55
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=56 title='Conceptual<br>framework'>
+        data-slide=56 title='Learning objectives'>
          56
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=57 title='Learning objectives'>
+        data-slide=57 title='Recruitment plan'>
          57
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=58 title='Recruitment plan'>
+        data-slide=58 title='Research goals'>
          58
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=59 title='Research goals'>
+        data-slide=59 title='Data acquisition'>
          59
       </a>
     </li>
@@ -2592,71 +2565,64 @@ Chava Castaneda, Clint Elg, Yesol Sapozhnikov, Courtney Schreiner, Hannah Smith,
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=61 title='Data acquisition'>
+        data-slide=61 title='Ethics'>
          61
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=62 title='Ethics'>
+        data-slide=62 title='Considerations'>
          62
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=63 title='Considerations'>
+        data-slide=63 title='Timeline'>
          63
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=64 title='Timeline'>
+        data-slide=64 title='Future directions'>
          64
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=65 title='Future directions'>
+        data-slide=65 title='Summary'>
          65
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=66 title='Summary'>
+        data-slide=66 title='Intellectual merit'>
          66
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=67 title='Intellectual merit'>
+        data-slide=67 title='Broader impacts'>
          67
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=68 title='Broader impacts'>
+        data-slide=68 title='Acknowledgements'>
          68
       </a>
     </li>
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=69 title='Acknowledgements'>
+        data-slide=69 title='Thank You'>
          69
-      </a>
-    </li>
-    
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=70 title='Thank You'>
-         70
       </a>
     </li>
     
