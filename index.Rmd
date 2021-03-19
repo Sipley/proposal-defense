@@ -872,7 +872,7 @@ bottom:50px;" width="22%">
 <img src="assets/img/conceptual-framework.png" style="position:absolute; 
 float:left; 
 right:0px; 
-bottom:0px;" width="71%">
+bottom:25px;" width="70%">
 
 <img src="assets/img/modules.png" style="position:absolute; 
 float:right; 
