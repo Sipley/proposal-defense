@@ -32,23 +32,19 @@ knit        : slidify::knit2slides
 
 - How do ecological interactions shape the diversification of life?
 
+--- 
+
+## Big questions
+
+- How do ecological interactions shape the diversification of life?
+
 > - Why is parasitism so common?
 
-<img src="assets/img/zombieCrab.png" style="position:absolute; 
-float:left; 
-right:0px; 
-bottom:0px;" width="49%">
+<br><br>
 
-<br><br><br><br>
-<p style="position: absolute; bottom: 1; left: 5; width: 475px; padding: 0px; background-color: none; font-size: 20px; text-align:right">
-<b>Parasitic barnacle (<em>Heterosaccus californicus</em>)<br>
-Sheep crab (<em>Loxorhynchus grandis</em>)</b><br>
-Photo by Anand Varma, "Mindsuckers"<br>
-National Geographic (2014)
+<img src="assets/img/arms-race.png" title="plot of chunk powerful-caterpillar" alt="plot of chunk powerful-caterpillar" width="60%" style="display: block; margin: auto 0 auto auto;" />
 
-</p>
-
---- 
+---
 
 ## How may parasites evade coextinction?
 
@@ -74,10 +70,10 @@ National Geographic (2014)
 
 ## Current methods
 
-> - Do not incorporate reciprocal selective pressures
-> - Neglect antagonistic coevolution btwn parasites & their hosts
-
-<center>![arms-race](assets/img/arms-race.png)</center>
+> - Test congruence btwn P and H 
+> - Map P onto H 
+> - Assume cospeciation as null model
+> - Neglect antagonistic coevolution 
 
 --- 
 
