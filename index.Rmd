@@ -38,22 +38,27 @@ knit        : slidify::knit2slides
 
 - How do ecological interactions shape the diversification of life?
 
-> - Why is parasitism so common?
+> - How is parasitism so ubiquitous despite obvious harm to host?
 
-<br><br>
+<br><br><br><br>
 
 ```{r powerful-caterpillar, fig.show='hold', out.width="60%", echo=FALSE, fig.align = 'right'}
 
 knitr::include_graphics('assets/img/arms-race.png')
 ```
 
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Ehrlich and Raven (1964)<br>Weinstein & Kuris (2016)</p>
+</div>
+
 ---
 
 ## How may parasites evade coextinction?
 
-> - Be less virulent
-> - Be less host-specific
-> - Evolve faster
+- Be less virulent
+- Promote host reproduction
+- Be less host-specific
+- Evolve faster
 
 ![red-queen](assets/img/redQueen.jpeg)
 
@@ -61,22 +66,25 @@ knitr::include_graphics('assets/img/arms-race.png')
 
 ## Problem
 
-> - Cool to think about but hard to study
-> - No quantitative macro-coevolutionary model
+- Cool to think about but hard to study
+
+> - <b>No quantitative macro-coevolutionary model</b>
 
 ---
 
 ## Problem
 
 - Cool to think about but hard to study
-- No quantitative macro-coevolutionary model
+- <b>No quantitative macro-coevolutionary model</b>
 
 ## Current methods
 
-> - Test congruence btwn P and H 
-> - Map P onto H 
-> - Assume cospeciation as null model
-> - Neglect antagonistic coevolution 
+- Test congruence btwn P and H 
+- Map P onto H 
+- Assume cospeciation as null model
+- Use analogy 
+
+> - <b>Neglect antagonistic coevolution</b>
 
 --- 
 
@@ -142,7 +150,7 @@ knitr::include_graphics('assets/img/arms-race.png')
 
 ## Background
 
-- Ancestral host-repertoire reconstruction
+- Recent exciting progress: explore evolution of interactions in model-based framework 
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Braga et al (2020, 2021)<br>Hardy (2016)<br>Kaczvinsky & Hardy (2020)</p>
@@ -152,7 +160,7 @@ knitr::include_graphics('assets/img/arms-race.png')
 
 ## Background
 
-- Ancestral host-repertoire reconstruction
+- Recent exciting progress: explore evolution of interactions in model-based framework
 
 ## Problem
 
@@ -186,8 +194,8 @@ knitr::include_graphics('assets/img/arms-race.png')
 
 *** =left
 
-> - Host escape: <br>parasite extinction
-> - Parasite escape: <br>host-shift
+> - <b>Host "escape":</b> <br>parasite extinction
+> - <b>Parasite "escape": </b> <br>host-shift
 
 *** =right
 
@@ -212,8 +220,8 @@ bottom:20px;" width="70%">
 
 ## Methods
 
-> - Develop new `R` package: `coevolve`
-> - Simulate host-parasite coevolution: `cophy`
+- Develop new `R` package: `coevolve`
+- Simulate host-parasite coevolution: `cophy`
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Engelstadter & Fortuna (2019)</p>
@@ -232,8 +240,8 @@ Bottom: $\nu = 2$</p>
 
 *** =left
 
-> - Assume we have a powerful parasite
-> - Higher prob(parasite extinction) &#8594; Greater host diversity
+- Assume we have a powerful parasite
+- Higher prob(parasite extinction) &#8594; Greater host diversity
 
 *** =right
 
@@ -257,7 +265,7 @@ Bottom: $\nu = 2$</p>
 
 <img src="assets/img/nu.png" style="position:absolute; 
 float:left; 
-right:5px; 
+right:15px; 
 bottom:15px;" width="50%">
 
 ---
@@ -270,39 +278,35 @@ bottom:15px;" width="50%">
 
 ---
 
-## Generate testable macroevolutionary predictions under escape-and-radiate coevolution
-
-1. Simulate datasets under null and escape-and-radiate models 
-2. Analyze datasets using suite of coevolutionary methods 
-3. Evaluate to what extent methods can tell them apart
-
-## Plan of attack
-
-- Describe method
-- Pose predictions
-
----
-
 ## Time-split
 
-- Compare point statistics before and after "escape" events; compare overall summary statistics
+- Compare point statistics before and after "escape" events & overall summary statistics
 
-    - Diversification rate ($r$) and relative extinction rate ($\epsilon$)
+    - Diversification rate ($r$)
+    - Relative extinction rate ($\epsilon$)
     - Lineage through time plots
-    - Tree shape summary stats (e.g., spectral densities): `RPANDA`
+    - Tree shape summary stats: `RPANDA`
 
-<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<div style="position: absolute; bottom: 4em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Morlon et al (2016)</p>
 </div>
 
 ---
 
-## Time-split: Predictions
+## Time-split
 
-- Similar $r$ but higher $\epsilon$ under escape-and-radiate
-- More "bursts" evident in LTT plots
-- Trees less balanced, more pectinate
-- Escape-and-radiate events fall out as peaks in the spectral densities
+- Compare point statistics before and after "escape" events & overall summary statistics
+
+    - Diversification rate ($r$) - `similar`
+    - Relative extinction rate ($\epsilon$) - `higher under escape-and-radiate`
+    - Lineage through time plots - `more "bursts"`
+    - Tree shape summary stats: `RPANDA` 
+        - `trees less balanced, more pectinate`
+        - `escape-and-radiate events fall out as peaks in spectral densities`
+
+<div style="position: absolute; bottom: 4em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Morlon et al (2016)</p>
+</div>
 
 --- 
 
@@ -310,15 +314,37 @@ bottom:15px;" width="50%">
 
 <b>Distance-based</b>
 
-```{r paco, fig.show='hold', out.width="79%", echo=FALSE, fig.align = 'right'}
+<img src="assets/img/paco.png" style="position:absolute; 
+float:left; 
+right:0px; 
+bottom:80px;" width="62%">
 
-knitr::include_graphics('assets/img/paco.png')
-```
 <div style="position: absolute; top: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="left">Balbuena et al (2013)<br>Hutchinson et al (2017)</p>
 </div>
 
---- &twocol
+--- 
+
+## Cophylogeny reconstruction
+
+<b>Distance-based</b>
+
+<img src="assets/img/paco.png" style="position:absolute; 
+float:left; 
+right:0px; 
+bottom:80px;" width="62%">
+
+<div style="position: absolute; top: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="left">Balbuena et al (2013)<br>Hutchinson et al (2017)</p>
+</div>
+
+<br><br><br>
+
+`Greater phylogenetic`<br>
+`congruence under` <br>
+`escape-and-radiate`
+
+---
 
 ## Cophylogeny reconstruction
 
@@ -328,41 +354,41 @@ knitr::include_graphics('assets/img/paco.png')
 <p style="font-size: 20px"; align="left">Engelstadter & Fortuna (2019)<br>Conow et al (2010)</p>
 </div>
 
-*** =left
+<img src="assets/img/cophy.png" style="position:absolute; 
+float:left; 
+left:85px; 
+bottom:155px;" width="35%">
 
-```{r cophy-sim, fig.show='hold', out.width="94%", echo=FALSE, fig.align = 'right'}
+<img src="assets/img/jane.png" style="position:absolute; 
+float:left; 
+right:0px; 
+bottom:115px;" width="45%">
 
-library(cophy)
+---
 
-# simulate host tree
-set.seed(36830)
-htree <- rphylo_H(tmax = 5, lambda = 0.6, mu = 0.1)
-
-# simulate parasite evolution on host tree & visualize
-set.seed(83843)
-cophy1 <-rcophylo(beta = 0.5, gamma = 0.06, nu = 0.1, HTree=htree)
-plot(cophy1)
-```
-
-*** =right
-
-![jane](assets/img/jane.png)
-
---- &twocol
-
-## Cophylogeny reconstruction: Predictions
-
-*** =left
-
-<b>Distance-based</b>
-
-- `paco` will infer greater phylogenetic congruence under escape-and-radiate
-
-*** =right 
+## Cophylogeny reconstruction
 
 <b>Event-based</b>
 
-- `Jane` will underestimate host-shift events under escape-and-radiate
+<div style="position: absolute; top: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="left">Engelstadter & Fortuna (2019)<br>Conow et al (2010)</p>
+</div>
+
+<img src="assets/img/cophy.png" style="position:absolute; 
+float:left; 
+left:85px; 
+bottom:155px;" width="35%">
+
+<img src="assets/img/jane.png" style="position:absolute; 
+float:left; 
+right:0px; 
+bottom:115px;" width="45%">
+
+
+<br><br><br><br><br><br><br><br>
+
+`Host-shift events will be underestimated under`<br>
+`escape-and-radiate`
 
 ---
 

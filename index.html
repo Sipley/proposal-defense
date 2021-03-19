@@ -132,12 +132,16 @@
 </ul>
 
 <ul class = "build incremental">
-<li>Why is parasitism so common?</li>
+<li>How is parasitism so ubiquitous despite obvious harm to host?</li>
 </ul>
 
-<p><br><br></p>
+<p><br><br><br><br></p>
 
 <p><img src="assets/img/arms-race.png" title="plot of chunk powerful-caterpillar" alt="plot of chunk powerful-caterpillar" width="60%" style="display: block; margin: auto 0 auto auto;" /></p>
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Ehrlich and Raven (1964)<br>Weinstein & Kuris (2016)</p>
+</div>
 
   </article>
   <!-- Presenter Notes -->
@@ -158,8 +162,9 @@
   </hgroup>
   
   <article data-timings="">
-    <ul class = "build incremental">
+    <ul>
 <li>Be less virulent</li>
+<li>Promote host reproduction</li>
 <li>Be less host-specific</li>
 <li>Evolve faster</li>
 </ul>
@@ -185,9 +190,12 @@
   </hgroup>
   
   <article data-timings="">
-    <ul class = "build incremental">
+    <ul>
 <li>Cool to think about but hard to study</li>
-<li>No quantitative macro-coevolutionary model</li>
+</ul>
+
+<ul class = "build incremental">
+<li><b>No quantitative macro-coevolutionary model</b></li>
 </ul>
 
   </article>
@@ -211,16 +219,20 @@
   <article data-timings="">
     <ul>
 <li>Cool to think about but hard to study</li>
-<li>No quantitative macro-coevolutionary model</li>
+<li><b>No quantitative macro-coevolutionary model</b></li>
 </ul>
 
 <h2>Current methods</h2>
 
-<ul class = "build incremental">
+<ul>
 <li>Test congruence btwn P and H </li>
 <li>Map P onto H </li>
 <li>Assume cospeciation as null model</li>
-<li>Neglect antagonistic coevolution </li>
+<li>Use analogy </li>
+</ul>
+
+<ul class = "build incremental">
+<li><b>Neglect antagonistic coevolution</b></li>
 </ul>
 
   </article>
@@ -400,7 +412,7 @@
   
   <article data-timings="">
     <ul>
-<li>Ancestral host-repertoire reconstruction</li>
+<li>Recent exciting progress: explore evolution of interactions in model-based framework </li>
 </ul>
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
@@ -427,7 +439,7 @@
   
   <article data-timings="">
     <ul>
-<li>Ancestral host-repertoire reconstruction</li>
+<li>Recent exciting progress: explore evolution of interactions in model-based framework</li>
 </ul>
 
 <h2>Problem</h2>
@@ -511,8 +523,8 @@
 
 <div style='float:left;width:48%;' class='centered'>
   <ul class = "build incremental">
-<li>Host escape: <br>parasite extinction</li>
-<li>Parasite escape: <br>host-shift</li>
+<li><b>Host &quot;escape&quot;:</b> <br>parasite extinction</li>
+<li><b>Parasite &quot;escape&quot;: </b> <br>host-shift</li>
 </ul>
 
 </div>
@@ -573,7 +585,7 @@ bottom:20px;" width="70%"></p>
 
 <h2>Methods</h2>
 
-<ul class = "build incremental">
+<ul>
 <li>Develop new <code>R</code> package: <code>coevolve</code></li>
 <li>Simulate host-parasite coevolution: <code>cophy</code></li>
 </ul>
@@ -609,7 +621,7 @@ Bottom: $\nu = 2$</p>
 </div>
 
 <div style='float:left;width:48%;' class='centered'>
-  <ul class = "build incremental">
+  <ul>
 <li>Assume we have a powerful parasite</li>
 <li>Higher prob(parasite extinction) &#8594; Greater host diversity</li>
 </ul>
@@ -654,7 +666,7 @@ Bottom: $\nu = 2$</p>
 <div style='float:right;width:48%;'>
   <p><img src="assets/img/nu.png" style="position:absolute; 
 float:left; 
-right:5px; 
+right:15px; 
 bottom:15px;" width="50%"></p>
 
 </div>
@@ -698,22 +710,24 @@ bottom:15px;" width="50%"></p>
 <slide class="" id="slide-23" style="background:;">
   
   <hgroup>
-    <h2>Generate testable macroevolutionary predictions under escape-and-radiate coevolution</h2>
+    <h2>Time-split</h2>
   </hgroup>
   
   <article data-timings="">
-    <ol>
-<li>Simulate datasets under null and escape-and-radiate models </li>
-<li>Analyze datasets using suite of coevolutionary methods </li>
-<li>Evaluate to what extent methods can tell them apart</li>
-</ol>
-
-<h2>Plan of attack</h2>
+    <ul>
+<li><p>Compare point statistics before and after &quot;escape&quot; events &amp; overall summary statistics</p>
 
 <ul>
-<li>Describe method</li>
-<li>Pose predictions</li>
+<li>Diversification rate (\(r\))</li>
+<li>Relative extinction rate (\(\epsilon\))</li>
+<li>Lineage through time plots</li>
+<li>Tree shape summary stats: <code>RPANDA</code></li>
+</ul></li>
 </ul>
+
+<div style="position: absolute; bottom: 4em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Morlon et al (2016)</p>
+</div>
 
   </article>
   <!-- Presenter Notes -->
@@ -735,16 +749,22 @@ bottom:15px;" width="50%"></p>
   
   <article data-timings="">
     <ul>
-<li><p>Compare point statistics before and after &quot;escape&quot; events; compare overall summary statistics</p>
+<li><p>Compare point statistics before and after &quot;escape&quot; events &amp; overall summary statistics</p>
 
 <ul>
-<li>Diversification rate (\(r\)) and relative extinction rate (\(\epsilon\))</li>
-<li>Lineage through time plots</li>
-<li>Tree shape summary stats (e.g., spectral densities): <code>RPANDA</code></li>
+<li>Diversification rate (\(r\)) - <code>similar</code></li>
+<li>Relative extinction rate (\(\epsilon\)) - <code>higher under escape-and-radiate</code></li>
+<li>Lineage through time plots - <code>more &quot;bursts&quot;</code></li>
+<li>Tree shape summary stats: <code>RPANDA</code> 
+
+<ul>
+<li><code>trees less balanced, more pectinate</code></li>
+<li><code>escape-and-radiate events fall out as peaks in spectral densities</code></li>
+</ul></li>
 </ul></li>
 </ul>
 
-<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<div style="position: absolute; bottom: 4em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Morlon et al (2016)</p>
 </div>
 
@@ -763,16 +783,20 @@ bottom:15px;" width="50%"></p>
 <slide class="" id="slide-25" style="background:;">
   
   <hgroup>
-    <h2>Time-split: Predictions</h2>
+    <h2>Cophylogeny reconstruction</h2>
   </hgroup>
   
   <article data-timings="">
-    <ul>
-<li>Similar \(r\) but higher \(\epsilon\) under escape-and-radiate</li>
-<li>More &quot;bursts&quot; evident in LTT plots</li>
-<li>Trees less balanced, more pectinate</li>
-<li>Escape-and-radiate events fall out as peaks in the spectral densities</li>
-</ul>
+    <p><b>Distance-based</b></p>
+
+<p><img src="assets/img/paco.png" style="position:absolute; 
+float:left; 
+right:0px; 
+bottom:80px;" width="62%"></p>
+
+<div style="position: absolute; top: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="left">Balbuena et al (2013)<br>Hutchinson et al (2017)</p>
+</div>
 
   </article>
   <!-- Presenter Notes -->
@@ -795,11 +819,20 @@ bottom:15px;" width="50%"></p>
   <article data-timings="">
     <p><b>Distance-based</b></p>
 
-<p><img src="assets/img/paco.png" title="plot of chunk paco" alt="plot of chunk paco" width="79%" style="display: block; margin: auto 0 auto auto;" /></p>
+<p><img src="assets/img/paco.png" style="position:absolute; 
+float:left; 
+right:0px; 
+bottom:80px;" width="62%"></p>
 
 <div style="position: absolute; top: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="left">Balbuena et al (2013)<br>Hutchinson et al (2017)</p>
 </div>
+
+<p><br><br><br></p>
+
+<p><code>Greater phylogenetic</code><br>
+<code>congruence under</code> <br>
+<code>escape-and-radiate</code></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -826,14 +859,16 @@ bottom:15px;" width="50%"></p>
 <p style="font-size: 20px"; align="left">Engelstadter & Fortuna (2019)<br>Conow et al (2010)</p>
 </div>
 
-<div style='float:left;width:48%;' class='centered'>
-  <p><img src="assets/fig/cophy-sim-1.png" title="plot of chunk cophy-sim" alt="plot of chunk cophy-sim" width="94%" style="display: block; margin: auto 0 auto auto;" /></p>
+<p><img src="assets/img/cophy.png" style="position:absolute; 
+float:left; 
+left:85px; 
+bottom:155px;" width="35%"></p>
 
-</div>
-<div style='float:right;width:48%;'>
-  <p><img src="assets/img/jane.png" alt="jane"></p>
+<p><img src="assets/img/jane.png" style="position:absolute; 
+float:left; 
+right:0px; 
+bottom:115px;" width="45%"></p>
 
-</div>
   </article>
   <!-- Presenter Notes -->
   
@@ -849,27 +884,31 @@ bottom:15px;" width="50%"></p>
 <slide class="" id="slide-28" style="background:;">
   
   <hgroup>
-    <h2>Cophylogeny reconstruction: Predictions</h2>
+    <h2>Cophylogeny reconstruction</h2>
   </hgroup>
   
   <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <p><b>Distance-based</b></p>
+    <p><b>Event-based</b></p>
 
-<ul>
-<li><code>paco</code> will infer greater phylogenetic congruence under escape-and-radiate</li>
-</ul>
-
+<div style="position: absolute; top: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="left">Engelstadter & Fortuna (2019)<br>Conow et al (2010)</p>
 </div>
-<div style='float:right;width:48%;'>
-  <p><b>Event-based</b></p>
 
-<ul>
-<li><code>Jane</code> will underestimate host-shift events under escape-and-radiate</li>
-</ul>
+<p><img src="assets/img/cophy.png" style="position:absolute; 
+float:left; 
+left:85px; 
+bottom:155px;" width="35%"></p>
 
-</div>
+<p><img src="assets/img/jane.png" style="position:absolute; 
+float:left; 
+right:0px; 
+bottom:115px;" width="45%"></p>
+
+<p><br><br><br><br><br><br><br><br></p>
+
+<p><code>Host-shift events will be underestimated under</code><br>
+<code>escape-and-radiate</code></p>
+
   </article>
   <!-- Presenter Notes -->
   
@@ -2416,7 +2455,7 @@ Chava Castaneda, Clint Elg, Yesol Sapozhnikov, Courtney Schreiner, Hannah Smith,
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=23 title='Generate testable macroevolutionary predictions under escape-and-radiate coevolution'>
+        data-slide=23 title='Time-split'>
          23
       </a>
     </li>
@@ -2430,7 +2469,7 @@ Chava Castaneda, Clint Elg, Yesol Sapozhnikov, Courtney Schreiner, Hannah Smith,
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=25 title='Time-split: Predictions'>
+        data-slide=25 title='Cophylogeny reconstruction'>
          25
       </a>
     </li>
@@ -2451,7 +2490,7 @@ Chava Castaneda, Clint Elg, Yesol Sapozhnikov, Courtney Schreiner, Hannah Smith,
     
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=28 title='Cophylogeny reconstruction: Predictions'>
+        data-slide=28 title='Cophylogeny reconstruction'>
          28
       </a>
     </li>
