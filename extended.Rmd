@@ -220,3 +220,16 @@ Test for interaction btwn chemical defense and conspicuous coloration on diversi
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">White et al (2014)</p>
 </div>
+
+---
+
+## P matrix challenge
+
+- We have two trees
+
+## Possible solutions
+
+- Make one tree and account for divergence between interacting phylogenies?
+- Extend framework to include cophylogenetic reconciliations?
+
+---
