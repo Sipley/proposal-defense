@@ -48,64 +48,35 @@ National Geographic (2014)
 
 </p>
 
---- &twocolfull
+--- 
 
 ## How may parasites evade coextinction?
 
-*** =left
-
->"<b>Evolutionary rescue</b> occurs when adaptive evolutionary change restores positive growth to declining populations and prevents extinction" 
->
->  &mdash; Carlson, Cunningham, and Westley (2014)
-
-*** =right
 > - Be less virulent
 > - Be less host-specific
 > - Evolve faster
 
-*** =fullwidth
+![red-queen](assets/img/redQueen.jpeg)
 
-<br>
-
---- &twocolfull
-
-## How may parasites evade coextinction?
-
-*** =left
-
->"<b>Evolutionary rescue</b> occurs when adaptive evolutionary change restores positive growth to declining populations and prevents extinction" 
->
->  &mdash; Carlson, Cunningham, and Westley (2014)
-
-*** =right
-- Be less virulent
-- Be less host-specific
-- Evolve faster
-
-*** =fullwidth
-
-<br>
+--- 
 
 ## Problem
 
-Cool to think about but hard to study
+> - Cool to think about but hard to study
+> - No quantitative macro-coevolutionary model
 
 ---
 
+## Problem
+
+- Cool to think about but hard to study
+- No quantitative macro-coevolutionary model
+
 ## Current methods
 
-> - Distance-based / event-based
 > - Do not incorporate reciprocal selective pressures
+> - Neglect antagonistic coevolution btwn parasites & their hosts
 
----
-
-## Current methods
-
-- Distance-based / event-based
-- Do not incorporate reciprocal selective pressures
-- Neglect antagonistic coevolution btwn parasites & their hosts
-
-![red-queen](assets/img/redQueen.jpeg)
 <center>![arms-race](assets/img/arms-race.png)</center>
 
 --- 
@@ -172,7 +143,17 @@ Cool to think about but hard to study
 
 ## Background
 
-- Exciting progress exploring evolution of host-parasite interactions via ancestral host-repertoire reconstruction
+- Ancestral host-repertoire reconstruction
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Braga et al (2020, 2021)<br>Hardy (2016)<br>Kaczvinsky & Hardy (2020)</p>
+</div>
+
+---
+
+## Background
+
+- Ancestral host-repertoire reconstruction
 
 ## Problem
 
@@ -188,64 +169,60 @@ Cool to think about but hard to study
 ## Objectives
 
 > 1. Develop a novel quantitative model of escape-and-radiate coevolution
-> 2. Generate testable macroevolutionary predictions of the consequences of antagonistic species interactions
-> 3. Evaluate performance of methods to detect escape-and-radiate coevolution
+> 2. Generate testable macroevolutionary predictions under escape-and-radiate coevolution
 
 ---
 
-## Quantitative model for escape-and-radiate 
+## Model description
 
-- M1: Assume host speciation higher after parasite extinction
-- M0: assume host diversification independent of parasite extinction
+<b>Possible evolutionary events</b>
 
----
-
-## Possible evolutionary events
-
-<img src="assets/img/evol.png" class="center" width="86%">
+<img src="assets/img/evol.png" class="center" width="70%">
 
 --- &twocol
 
-## Possible coevolutionary scenarios
+## Model description
+
+<b>Possible coevolutionary scenario</b>
 
 *** =left
 
-- Successful host escape: <br>parasite extinction
-- Successful parasite escape: <br>host-shift
+> - Host escape: <br>parasite extinction
+> - Parasite escape: <br>host-shift
 
 *** =right
 
 <img src="assets/img/coevol.png" style="position:absolute; 
 float:left; 
-right:5px; 
-bottom:15px;" width="80%">
+right:10px; 
+bottom:20px;" width="70%">
 
 ---
 
+## Quantitative model for escape-and-radiate 
+
+- M0: Host diversification independent of parasite extinction
+- M1: Host speciation higher after parasite extinction
+
+---
+
+## Quantitative model for escape-and-radiate 
+
+- M0: Host diversification independent of parasite extinction
+- M1: Host speciation higher after parasite extinction
+
 ## Methods
 
-> - New `R` package `coevolve`
+> - Develop new `R` package: `coevolve`
 > - Simulate host-parasite coevolution: `cophy`
-> - Test driven development: `testthat` and `vdiffr`
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Engelstadter & Fortuna (2019)</p>
 </div>
 
----
-
-## Methods
-
-Parameters of interest
-- $\beta$: baseline parasite host shift rate
-- $\nu$: parasite extinction rate
-- $\kappa$: parasite speciation rate w/in hosts
-- $\theta_S$: effect of parasite on host speciation
-- $\theta_E$: effect of parasite on host extinction
-
 --- &twocol
 
-## Predictions
+## Proof of concept
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Simulations performed in `cophy`<br>
@@ -256,7 +233,26 @@ Bottom: $\nu = 2$</p>
 
 *** =left
 
-- Greater host diversification following parasite extinction under escape-and-radiate 
+> - Assume we have a powerful parasite
+> - Higher prob(parasite extinction) &#8594; Greater host diversity
+
+*** =right
+
+--- &twocol
+
+## Proof of concept
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Simulations performed in `cophy`<br>
+$\kappa = 0$, $\theta_S = 0.1$, $\beta = 0$<br>
+Top: $\nu = 0$<br>
+Bottom: $\nu = 2$</p>
+</div>
+
+*** =left
+
+- Assume we have a powerful parasite
+- Higher prob(parasite extinction) &#8594; Greater host diversity
 
 *** =right
 
@@ -267,26 +263,24 @@ bottom:15px;" width="50%">
 
 ---
 
-## Now what?
+## Generate testable macroevolutionary predictions under escape-and-radiate coevolution
 
 > 1. Simulate datasets under null and escape-and-radiate models 
-> 2. Analyze datasets using coevolutionary methods
-> 3. Identify which coevolutionary methods can tell them apart
+> 2. Analyze datasets using suite of coevolutionary methods 
+> 3. Evaluate to what extent methods can tell them apart
 
 ---
 
-## Now what?
+## Generate testable macroevolutionary predictions under escape-and-radiate coevolution
 
 1. Simulate datasets under null and escape-and-radiate models 
-2. Analyze datasets using coevolutionary methods
-3. Identify which coevolutionary methods can tell them apart
+2. Analyze datasets using suite of coevolutionary methods 
+3. Evaluate to what extent methods can tell them apart
 
-## Warning
+## Plan of attack
 
-- We're about to go through lots of methods, so hold tight!
-- For each, I will
-    - Describe method
-    - Pose predictions
+- Describe method
+- Pose predictions
 
 ---
 
