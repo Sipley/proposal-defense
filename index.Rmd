@@ -441,6 +441,100 @@ bottom:25px;" width="78%">
 
 ## Models of diversification
 
+Two rates classes:
+
+1. basal rate class
+2. accelerated rate class
+
+---
+
+## Models of diversification
+
+Two rates classes:
+
+1. basal rate class
+2. accelerated rate class
+
+## Predictions
+
+Host enter accelerated rate class after successful "escape" event
+
+---
+
+## Models of diversification
+
+<b>BiSSE</b>
+
+- Branches descending from nodes with fewer parasite associations occupy the accelerated rate class
+- Overestimate significance
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Maddison, Midford, & Otto (2007)</p>
+</div>
+
+---
+
+## Models of diversification
+
+<b>HiSSE</b>
+
+<img src="assets/img/hisse.png" style="position:absolute; 
+float:left; 
+right:10px; 
+bottom:15px;" width="77%">
+
+<div style="position: absolute; top: 5em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Figure directly from<br>Beaulieu & O’Meara (2016)</p>
+</div>
+
+---
+
+## Models of diversification
+
+<b>HiSSE</b>
+
+Diversification models that do not account for unmeasured traits are inappropriat to assess relationships between mutualism and ant diversification
+
+- Rejected cooperate-and-radiate
+- Lineages first radiated, then evolved plant mutualism
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Kaur et al (2019)</p>
+</div>
+
+---
+
+## Models of diversification: Predictions
+
+SSE models have low power to detect trait-dependent extinction
+
+SSE models accurately infer changes in rate classes with greater certainty for host phylogenies that evolve under escape-and-radiate than parasite phylogenies
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Rabosky and Goldberg (2017)</p>
+</div>
+
+---
+
+## Models of diversification
+
+Likelihood calculated using DEC only reflects evolution of ranges (host-repertoires) and treats trees as fixed, which can be problematic when jump dispersal events are allowed
+
+## Solution
+
+- Apply geographic SSE models: `GeoSSE`
+- Allow geographic range evolution independent of focal trait: `GeoHiSSE`
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Caetano, O'Meara, & Beaulieu (2018)<br>Ree & Sanmartin (2018)<br>Goldberg, Lancaster, & Ree (2011)</p>
+</div>
+
+---
+
+## Models of diversification: Predictions
+
+Of DEC, GeoSSE, and GeoHiSSE, expect GeoHiSSE to reconstruct coevolution under escape-and-radiate most accurately 
+
 --- .segue h2 bg:darkslategray
 
 ## Quantifying the role of coevolution <br>in lineage diversification
@@ -701,7 +795,7 @@ bottom:50px;" width="22%">
 <img src="assets/img/learning-objectives.png" style="position:absolute; 
 float:left; 
 right:0px; 
-bottom:0px;" width="82%">
+bottom:0px;" width="80%">
 
 ---
 
@@ -755,11 +849,17 @@ bottom:0px;" width="82%">
 
 ---
 
+## Timeline
+
+![timeline](assets/img/timeline.png)
+
+---
+
 ## Funding
 
 > - Secured
 
-> - Fending
+> - Pending
 
 > - Promising
 
