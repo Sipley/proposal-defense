@@ -50,6 +50,21 @@ bottom:25px;" width="78%">
 
 ## Models of diversification
 
+<b>HiSSE</b>
+
+Diversification models that do not account for unmeasured traits are inappropriate to assess relationships between mutualism and ant diversification
+
+- Rejected cooperate-and-radiate
+- Lineages first radiated, then evolved plant mutualism
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Kaur et al (2019)</p>
+</div>
+
+---
+
+## Models of diversification
+
 <b>MuSSE</b>
 
 - Allow exploration of interactive effects of traits
