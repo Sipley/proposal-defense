@@ -172,8 +172,8 @@ knit        : slidify::knit2slides
 
 ## Objectives
 
-> 1. Develop a novel quantitative model of escape-and-radiate coevolution
-> 2. Generate testable macroevolutionary predictions under escape-and-radiate coevolution
+1. Develop a novel quantitative model of escape-and-radiate coevolution
+2. Generate testable macroevolutionary predictions under escape-and-radiate coevolution
 
 ---
 
@@ -384,8 +384,7 @@ bottom:115px;" width="45%">
 
 <br><br><br><br><br><br><br><br>
 
-`Host-shift events will be underestimated under`<br>
-`escape-and-radiate`
+`Host-shift events will be underestimated under escape-and-radiate`
 
 ---
 
@@ -410,8 +409,7 @@ bottom:115px;" width="45%">
 
 <br>
 
-`DTL will underestimate transfer events under`<br>
-`escape-and-radiate`
+`DTL will underestimate transfer events under escape-and-radiate`
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Satler et al (2019)<br>Dismukes et al (2020)</p>
@@ -596,15 +594,20 @@ Likelihood calculated using DEC only reflects evolution of ranges (host-repertoi
 
 ## Background
 
-> - Few phylogenetic studies interpret their observations through lens of coevolutionary theory
-> - Coevolutionary theory &#8594; interesting predictions that can be tested at the macroevolutionary scale
+- Few phylogenetic studies interpret their observations through lens of coevolutionary theory
+- Coevolutionary theory generates interesting predictions
 
 ---
 
+## Background
+
+- Few phylogenetic studies interpret their observations through lens of coevolutionary theory
+- Coevolutionary theory generates interesting predictions
+
 ## Hypotheses
 
-> 1. Antagonistic coevolution promotes lineage diversification
-> 2. Mutualistic coevolution does not promote, and may even restrict, the diversification of species
+1. Antagonistic coevolution promotes lineage diversification
+2. Mutualistic coevolution does not promote, and may even restrict, the diversification of species
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Yoder & Nuismer (2010)</p>
@@ -668,7 +671,7 @@ bottom:0px;" width="50%">
 - Follow criteria for conducting transparent meta-analyses on open data
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Culina et al (2018)<br>Lajeunesse (2016)</p>
+<p style="font-size: 20px"; align="right">Lajeunesse (2016)<br>Culina et al (2018)</p>
 </div>
 
 ---
@@ -701,9 +704,9 @@ $R$ is ratio of the two diversification rates
 
 ---
 
-## Meta-analysis
+## Traditional meta-analysis
 
-- Goal of a meta-analysis: get average weighted effect size
+- Goal: get average weighted effect size
 - Evaluate homogeneity of effect sizes and test for bias
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
@@ -712,6 +715,11 @@ $R$ is ratio of the two diversification rates
 
 ---
 
+## Traditional meta-analysis
+
+- Goal: get average weighted effect size
+- Evaluate homogeneity of effect sizes and test for bias
+
 ## Phylogenetic meta-analysis
 
 - Additional source of bias: pooling effect size data from multiple taxa 
@@ -719,7 +727,7 @@ $R$ is ratio of the two diversification rates
 - Based on the generalized least squares (GLS) approach
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Adams (2008)<br>Lajeunesse (2009)<br>Lajeunesse (2011)<br>Lajeunesse (2016)</p>
+<p style="font-size: 20px"; align="right">Adams (2008)<br>Lajeunesse (2009,2011,2016)</p>
 </div>
 
 ---
@@ -772,10 +780,21 @@ If $P$ is identity matrix, then studies are independent
 - Test importance of type of interaction over other characteristics as predictor of diversification
 - Phylogenetic divergence btwn interacting phylogenetics, taxonomic identity, relationship to partner, relative extinction rates
 
-## Predictions
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px"; align="right">Carmona, Lajeunesse, & Johnson (2011)</p>
+</div>
 
-- Parasitism affects diversification differently in plants than in animals
-- Parasitism affects diversification differently in hosts than in parasites 
+---
+
+## Focus on one partner
+
+- Test importance of type of interaction over other characteristics as predictor of diversification
+- Phylogenetic divergence btwn interacting phylogenetics, taxonomic identity, relationship to partner, relative extinction rates
+
+- `Parasitism affects diversification differently in` 
+    - `Plants than animals`
+    - `Hosts than parasites`
+- `Extinction is impt under escape-and-radiate`
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Carmona, Lajeunesse, & Johnson (2011)</p>
@@ -789,10 +808,26 @@ If $P$ is identity matrix, then studies are independent
 
 ## A train-the-trainer model of computational empowerment for biologists
 
-> - Technology &#8594; data!
-> - Cumbersome datasets
-> - Foundational computational tools &#10003;
-> - Now what &#63;
+- Technology &#8594; data!
+- Cumbersome datasets
+- Foundational computational tools &#10003;
+
+<img src="assets/img/software.png" style="position:absolute; 
+float:left; 
+right:0px; 
+bottom:50px;" width="100%">
+
+---
+
+## A train-the-trainer model of computational empowerment for biologists
+
+- Technology &#8594; data!
+- Cumbersome datasets
+- Foundational computational tools &#10003;
+
+## Problem
+
+No practical experience integrating software process into scientific method
 
 <img src="assets/img/software.png" style="position:absolute; 
 float:left; 
@@ -813,10 +848,10 @@ To specifically tailor development of a new <b>Vertically Integrated Project (VI
 
 ## Overview
 
-> - Work with EPSCoR researchers to identify a suitable problem and dataset
-> - Create modules to walk through solving problem using software process
-> - Self-sustaining by design
-> - Help train a diverse workforce
+- Work with EPSCoR researchers to identify a suitable problem and dataset
+- Create modules to walk through solving problem using software process
+- Deliver modules through VIP course
+- Self-sustaining by design
 
 ---
 
@@ -858,8 +893,17 @@ bottom:0px;" width="80%">
     - Certified Carpentry instructors
     - IMCI-spnosored Carpentries workshops
     - Flyer distributed via COGS, IBEST, IMCI, CNR, EPSCoR GEM3
+
+---
+
+## Recruitment plan
+
+- Cohort A
+    - Certified Carpentry instructors
+    - IMCI-spnosored Carpentries workshops
+    - Flyer distributed via COGS, IBEST, IMCI, CNR, EPSCoR GEM3
 - Cohort B
-    - Undergraduate research
+    - Undergraduate research offices
     - SSS-TRiO
     - SACNAS
     - Palouse Pathways
@@ -887,13 +931,25 @@ bottom:0px;" width="80%">
 
 ---
 
+## Data acquisition
+
+- Survey participants' confidence before and after course in - `improve`
+    - Writing code to analyze large, cumbersome datasets 
+    - Teaching computational skills to novices and intermediate learners
+
+- Collaborate with others to identify other metrics for comparison (e.g., extent to which learning objectives met) - `equal gains`
+- Examine the reproducibility of code - `good`
+- Assess extent to which product meets the desired requirements - `good`
+
+---
+
 ## Ethics
 
 - IRB (Human Research Protections) Coordinator at UI
-- Likely will fall under Exempt Category 1 or 2
-- Human subjects training
-- All research data will be handled and stored securely
-- All participation will be voluntary (Informed Conent Form) 
+    - Exempt Category 1 or 2
+    - Human subjects training
+    - All research data will be handled and stored securely
+    - All participation will be voluntary (Informed Conent Form) 
 - Responsible Conduct of Research training 
 
 --- .segue h2 bg:darkslategray
@@ -906,22 +962,13 @@ bottom:0px;" width="80%">
 
 ![timeline](assets/img/timeline.png)
 
----
-
-## Funding
-
-> - Secured
-
-> - Pending
-
-> - Promising
 
 ---
 
 ## Future directions
 
-> 1. Assess the extent to which, and under what circumstances, escape-and-radiate coevolution emerge across the tree of life
-> 2. Extending `coevolve` to include additional models
+1. Assess the extent to which, and under what circumstances, escape-and-radiate coevolution emerge across the tree of life
+2. Extending `coevolve` to include additional models
 
 --- .segue h2 bg:darkslategray
 
@@ -939,13 +986,12 @@ bottom:0px;" width="80%">
 
 ## Broader impacts
 
-> 1. `R` package for simulating and detecting escape-and-radiate coevolution
-> 2. Cophylogenetic comparative framework
-> 3. Empowerment of more diverse and inclusive professoriate
-> 4. Reproducibility of science 
-> 5. Increased computational literacy of biologists
-> 6. Independent research experiences for 3 undergraduates
-> 7. Doctoral training for me
+> 1. Foundation for cophylogenetic comparative framework
+> 2. Empowerment of more diverse and inclusive professoriate
+> 3. Reproducibility of science 
+> 4. Increased computational literacy of biologists
+> 5. Independent research experiences for 3 undergraduates
+> 6. Doctoral training for me
 
 --- &twocol
 
