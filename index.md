@@ -777,7 +777,7 @@ If $P$ is identity matrix, then studies are independent
 
 ## Focus on one partner
 
-- Test importance of type of interaction over other characteristics as predictor of diversification
+- Test importance of type of interaction as predictor of diversification
 - Phylogenetic divergence btwn interacting phylogenetics, taxonomic identity, relationship to partner, relative extinction rates
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
@@ -788,7 +788,7 @@ If $P$ is identity matrix, then studies are independent
 
 ## Focus on one partner
 
-- Test importance of type of interaction over other characteristics as predictor of diversification
+- Test importance of type of interaction as predictor of diversification
 - Phylogenetic divergence btwn interacting phylogenetics, taxonomic identity, relationship to partner, relative extinction rates
 
 - `Parasitism affects diversification differently in` 
@@ -882,40 +882,38 @@ bottom:50px;" width="22%">
 
 <img src="assets/img/learning-objectives.png" style="position:absolute; 
 float:left; 
-right:0px; 
-bottom:0px;" width="80%">
+right:5px; 
+bottom:15px;" width="73%">
 
----
-
-## Recruitment plan
-
-- Cohort A
-    - Certified Carpentry instructors
-    - IMCI-spnosored Carpentries workshops
-    - Flyer distributed via COGS, IBEST, IMCI, CNR, EPSCoR GEM3
-
----
+--- &twocol
 
 ## Recruitment plan
 
-- Cohort A
-    - Certified Carpentry instructors
-    - IMCI-spnosored Carpentries workshops
-    - Flyer distributed via COGS, IBEST, IMCI, CNR, EPSCoR GEM3
-- Cohort B
-    - Undergraduate research offices
-    - SSS-TRiO
-    - SACNAS
-    - Palouse Pathways
+*** =left
+
+<b>Cohort A</b>
+
+- Certified Carpentry instructors
+- IMCI-sponsored Carpentries workshops
+- Flyer distributed widely
+
+*** =right
+
+<b>Cohort B</b>
+
+- Undergraduate research offices
+- SSS-TRiO
+- SACNAS
+- Palouse Pathways
 
 ---
 
 ## Research goals
 
-- Consult with EPSCoR affiliates to identify a suitable research problem to tackle via this course module
+- Consult with EPSCoR affiliates to identify a suitable research problem 
 
-> - Erect a novel pedagogical framework for teaching computational skills to biological researchers
-> - Science education paper introducing the new train-the-trainer model, how it was implemented, and how it went
+> - Erect a novel pedagogical framework 
+> - Science education paper introducing the new train-the-trainer model
 
 ---
 
@@ -925,7 +923,7 @@ bottom:0px;" width="80%">
     - Writing code to analyze large, cumbersome datasets
     - Teaching computational skills to novices and intermediate learners 
 
-> - Collaborate with others to identify other metrics for comparison (e.g., extent to which learning objectives met) 
+> - Collaborate to identify other metrics for comparison (e.g., extent to which learning objectives met) 
 > - Examine the reproducibility of code
 > - Assess extent to which product meets the desired requirements 
 
@@ -937,7 +935,7 @@ bottom:0px;" width="80%">
     - Writing code to analyze large, cumbersome datasets 
     - Teaching computational skills to novices and intermediate learners
 
-- Collaborate with others to identify other metrics for comparison (e.g., extent to which learning objectives met) - `equal gains`
+- Collaborate to identify other metrics for comparison (e.g., extent to which learning objectives met) - `equal gains`
 - Examine the reproducibility of code - `good`
 - Assess extent to which product meets the desired requirements - `good`
 
@@ -948,8 +946,8 @@ bottom:0px;" width="80%">
 - IRB (Human Research Protections) Coordinator at UI
     - Exempt Category 1 or 2
     - Human subjects training
-    - All research data will be handled and stored securely
-    - All participation will be voluntary (Informed Conent Form) 
+    - Data handled and stored securely
+    - Participation voluntary (Informed Conent Form) 
 - Responsible Conduct of Research training 
 
 --- .segue h2 bg:darkslategray
@@ -967,8 +965,8 @@ bottom:0px;" width="80%">
 
 ## Future directions
 
-1. Assess the extent to which, and under what circumstances, escape-and-radiate coevolution emerge across the tree of life
-2. Extending `coevolve` to include additional models
+1. Assess the extent to which escape-and-radiate coevolution emerge across the tree of life
+2. Extend `coevolve` to include additional models
 
 --- .segue h2 bg:darkslategray
 
@@ -978,18 +976,18 @@ bottom:0px;" width="80%">
 
 ## Intellectual merit
 
-> 1. First-author paper evaluating relative performance of methods in detecting escape-and-radiate coevolution
-> 2. Phylogenetic meta-analysis quantifying role of coevolution on lineage diversification
-> 3. Pedagogical innovation paper introducing train-the-train model of computational empowerment for biologists
+> 1. First-author paper: performance of methods in detecting escape-and-radiate coevolution
+> 2. Phylogenetic meta-analysis: role of coevolution on lineage diversification
+> 3. Pedagogical innovation paper: train-the-train model of computational empowerment for biologists
 
 ---
 
 ## Broader impacts
 
 > 1. Foundation for cophylogenetic comparative framework
-> 2. Empowerment of more diverse and inclusive professoriate
-> 3. Reproducibility of science 
-> 4. Increased computational literacy of biologists
+> 2. Empowerment of more diverse, collobrative, and inclusive professoriate
+> 3. Support reproducibility of science 
+> 4. Increase computational literacy of biologists
 > 5. Independent research experiences for 3 undergraduates
 > 6. Doctoral training for me
 
