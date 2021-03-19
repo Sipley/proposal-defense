@@ -31,10 +31,21 @@ National Geographic (2014)
 
 ---
 
+## How may parasites evade coextinction?
+
+- Be less virulent
+- Promote host reproduction
+- Be less host-specific
+- Evolve faster
+
+![red-queen](assets/img/redQueen.jpeg)
+
 <img src="assets/img/intmat.png" style="position:absolute; 
 float:left; 
 right:0px; 
 bottom:25px;" width="78%">
+
+---
 
 ## Discrete biogegraphy
 
