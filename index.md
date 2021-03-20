@@ -201,7 +201,7 @@ bottom:20px;" width="70%">
 
 ## Quantitative model for escape-and-radiate 
 
-- M0: Host diversification independent of parasite extinction
+- M0: Host speciation independent of parasite extinction
 - M1: Host speciation higher after parasite extinction
 
 ## Methods
@@ -431,9 +431,9 @@ bottom:15px;" width="80%">
 - Extirpation ~ Host-resistance <br>Dispersal ~ New host
 <br>
 
-- `Escape-and-radiate:` <br>
-`events coupled with` <br>
-`cladogenetic events`
+- `"Escape" events coupled` <br>
+`with cladogenetic` <br>
+`("radiation") events`
 
 - `Host-repertoire` <br>
 `evolution higher`
