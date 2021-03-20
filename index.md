@@ -15,12 +15,12 @@ knit        : slidify::knit2slides
 
 ## Outline
 
-1. Introduction 
-2. Developing a new model for a classic hypothesis
-3. Quantifying the role of coevolution in lineage diversification
-4. Software process meets the scientific method
-5. Considerations
-6. Summary
+> 1. Introduction 
+> 2. Developing a new model for a classic hypothesis
+> 3. Quantifying the role of coevolution in lineage diversification
+> 4. Software process meets the scientific method
+> 5. Considerations
+> 6. Summary
 
 --- .segue h2 bg:darkslategray
 
@@ -40,11 +40,11 @@ knit        : slidify::knit2slides
 
 > - How is parasitism so ubiquitous despite obvious harm to host?
 
-<br><br><br><br>
+<br>
 
-<img src="assets/img/arms-race.png" title="plot of chunk powerful-caterpillar" alt="plot of chunk powerful-caterpillar" width="60%" style="display: block; margin: auto 0 auto auto;" />
+<img src="assets/img/arms-race.png" title="plot of chunk powerful-caterpillar" alt="plot of chunk powerful-caterpillar" width="60%" style="display: block; margin: auto;" />
 
-<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<div style="position: absolute; bottom: 3em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Ehrlich and Raven (1964)<br>Weinstein & Kuris (2016)</p>
 </div>
 
@@ -63,12 +63,13 @@ knit        : slidify::knit2slides
 - Cool to think about but hard to study
 - <b>No quantitative macro-coevolutionary model</b>
 
+<br>
+
 ## Current methods
 
-- Test congruence btwn P and H 
-- Map P onto H 
+- Test congruence between parasite and host 
+- Map parasite onto host
 - Assume cospeciation as null model
-- Use analogy 
 
 > - <b>Neglect reciprocal selective pressures</b>
 
@@ -142,6 +143,11 @@ knit        : slidify::knit2slides
 <p style="font-size: 20px"; align="right">Braga et al (2020, 2021)<br>Hardy (2016)<br>Kaczvinsky & Hardy (2020)</p>
 </div>
 
+<img src="assets/img/intmat.png" style="position:absolute; 
+float:left; 
+right:0px; 
+bottom:25px;" width="65%">
+
 ---
 
 ## Background
@@ -150,12 +156,17 @@ knit        : slidify::knit2slides
 
 ## Problem
 
-- Require a fixed host phylogeny
-- Rely on phenomenological interpretations 
+- Require a fixed <br>host phylogeny
+- Rely on <br>phenomenological <br>interpretations 
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Braga et al (2020, 2021)<br>Hardy (2016)<br>Kaczvinsky & Hardy (2020)</p>
 </div>
+
+<img src="assets/img/intmat.png" style="position:absolute; 
+float:left; 
+right:0px; 
+bottom:25px;" width="65%">
 
 ---
 
@@ -847,7 +858,7 @@ bottom:55px;" width="70%">
     - Exempt Category 1 or 2
     - Human subjects training
     - Data handled and stored securely
-    - Participation voluntary (Informed Conent Form) 
+    - Participation voluntary (Informed Consent Form) 
 - Responsible Conduct of Research training 
 
 --- .segue h2 bg:darkslategray
@@ -878,7 +889,7 @@ bottom:55px;" width="70%">
 
 > 1. First-author paper: performance of methods in detecting escape-and-radiate coevolution
 > 2. Phylogenetic meta-analysis: role of coevolution on lineage diversification
-> 3. Pedagogical innovation paper: train-the-train model of computational empowerment for biologists
+> 3. Pedagogical innovation paper: train-the-trainer model of computational empowerment for biologists
 
 ---
 
