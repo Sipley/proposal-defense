@@ -33,8 +33,8 @@ knit        : slidify::knit2slides
 > - How do ecological interactions shape the diversification of life?
 > - Why is parasitism so ubiquitous despite obvious harm to host?
 
-<div style="position: absolute; bottom: 3em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px">Weinstein & Kuris (2016)</p>
+<div style="position: absolute; bottom: 4em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px">Weinstein & Kuris (2016)<br>Ehrlich and Raven (1964)</p>
 </div>
 
 --- 
@@ -48,7 +48,7 @@ knit        : slidify::knit2slides
 
 <img src="assets/img/arms-race.png" title="plot of chunk powerful-caterpillar" alt="plot of chunk powerful-caterpillar" width="60%" style="display: block; margin: auto;" />
 
-<div style="position: absolute; bottom: 3em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<div style="position: absolute; bottom: 4em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px">Weinstein & Kuris (2016)<br>Ehrlich and Raven (1964)</p>
 </div>
 
@@ -69,11 +69,10 @@ knit        : slidify::knit2slides
 
 <br>
 
-## Current methods
+## Conventional methods
 
 - Test congruence between parasite and host 
 - Map parasite onto host
-- Assume cospeciation as null model
 
 > - <b>Neglect reciprocal selective pressures</b>
 
@@ -150,7 +149,7 @@ knit        : slidify::knit2slides
 <img src="assets/img/intmat.png" style="position:absolute; 
 float:left; 
 right:0px; 
-bottom:25px;" width="65%">
+bottom:25px;" width="60%">
 
 ---
 
@@ -170,7 +169,7 @@ bottom:25px;" width="65%">
 <img src="assets/img/intmat.png" style="position:absolute; 
 float:left; 
 right:0px; 
-bottom:25px;" width="65%">
+bottom:25px;" width="60%">
 
 ---
 
@@ -372,32 +371,7 @@ bottom:205px;" width="38%">
 
 <br><br><br><br><br><br>
 
---- ---
-
-## Cophylogeny reconstruction
-
-<b>Event-based</b>
-
-<div style="position: absolute; top: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px">Engelstadter & Fortuna (2019)<br>Conow et al (2010)</p>
-</div>
-
-<img src="assets/img/cophy.png" style="position:absolute; 
-float:left; 
-left:135px; 
-bottom:235px;" width="28%">
-
-<img src="assets/img/jane.png" style="position:absolute; 
-float:left; 
-right:0px; 
-bottom:205px;" width="38%">
-
-
-<br><br><br><br><br><br>
-
-- `Host-shift events will be underestimated`
-
---- 
+---
 
 ## Cophylogeny reconstruction
 
@@ -523,8 +497,6 @@ Goldberg, Lancaster, & Ree (2011)
 - Few phylogenetic studies interpret their observations through lens of coevolutionary theory
 - Coevolutionary theory generates interesting predictions
 
-<br>
-
 ## Hypotheses
 
 1. Antagonistic coevolution promotes lineage diversification
@@ -562,6 +534,7 @@ Quantify the effect of coevolution on lineage diversification using phylogenetic
 Systematic Review and <br>
 Meta-Analysis (PRISMA) protocol
 - `metagear`
+- Follow criteria for conducting transparent meta-analyses on open data
 
 <img src="assets/img/prisma.png" style="position:absolute; 
 float:left; 
@@ -569,7 +542,7 @@ right:0px;
 bottom:0px;" width="50%">
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px">Moher et al (2015)<br>Lajeunesse (2016)</p>
+<p style="font-size: 20px">Moher et al (2015)<br>Lajeunesse (2016)<br>Culina et al (2018)</p>
 </div>
 
 ---
@@ -579,20 +552,20 @@ bottom:0px;" width="50%">
 - Two monophyletic groups A and B 
 - Open Tree of Life
 - Interaction Web Database
-- Global Biotic Interactions database
+- Global Biotic Interactions
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px">https://tree.opentreeoflife.org<br>
+https://iwdb.nceas.ucsb.edu/<br>
+https://www.globalbioticinteractions.org/
+</p>
+</div>
 
 ---
 
-## Scoping 
-
-- Two monophyletic groups A and B 
-- Open Tree of Life
-- Interaction Web Database
-- Global Biotic Interactions database
-
 ## Searching
 
-- Develop search terms - Librarian &#10003;
+- Develop search terms (Librarian &#10003;)
 - Validate search terms using Zeng & Wiens (2021)
 
 ---
@@ -601,10 +574,9 @@ bottom:0px;" width="50%">
 
 - Recruit help!  (GEM3 SARE funding x2)
 - `metagear`: `effort_distribute`, `abstract_screener`
-- Follow criteria for conducting transparent meta-analyses on open data
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px">Lajeunesse (2016)<br>Culina et al (2018)</p>
+<p style="font-size: 20px">Lajeunesse (2016)</p>
 </div>
 
 ---
@@ -614,26 +586,6 @@ bottom:0px;" width="50%">
 - Open Tree of Life in `R`: `rotl`
 - Estimate speciation and extinction rates: `GeoHiSSE`
 - Repeat analyses in Zeng and Wiens (2021)
-
-<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px">Michonneau, Brown, & Winter (2016)<br>Caetano, O'Meara, & Beaulieu (2018)</p>
-</div>
-
----
-
-## Coding and extracting data
-
-- Open Tree of Life in `R`: `rotl`
-- Estimate speciation and extinction rates: `GeoHiSSE`
-- Repeat analyses in Zeng and Wiens (2021)
-
-## Effect size
-
-Binary log-response ratio 
-
-$$\log_2(R)$$
-
-$R$ is ratio of the two diversification rates
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px">Michonneau, Brown, & Winter (2016)<br>Caetano, O'Meara, & Beaulieu (2018)</p>
@@ -657,6 +609,20 @@ $R$ is ratio of the two diversification rates
 - Goal: get average weighted effect size
 - Evaluate homogeneity of effect sizes and test for bias
 
+## Effect size
+
+Binary log-response ratio 
+
+$$\log_2(R)$$
+
+$R$ is ratio of the two diversification rates
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px">Zeng and Wiens (2021)<br>Reviewed in Lajeunesse (2011)</p>
+</div>
+
+---
+
 ## Sources of heterogeneity
 
 - Include potential covariates (e.g, $\epsilon$, is it a plant, is it a host, genome size)
@@ -664,7 +630,7 @@ $R$ is ratio of the two diversification rates
 - Phylogenetic similarity: `paco`
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px">Lajeunesse (2011)<br>Kumar et al (2017)<br>Hutchinson et al (2017)</p>
+<p style="font-size: 20px">Kumar et al (2017)<br>Hutchinson et al (2017)</p>
 </div>
 
 ---
@@ -824,6 +790,20 @@ bottom:50px;" width="22%">
 float:left; 
 right:85px; 
 bottom:55px;" width="70%">
+
+--- &twocol
+
+## Recruitment plan
+
+*** =left
+
+<b>Cohort A</b>
+
+- Certified Carpentry instructors
+- IMCI-sponsored Carpentries workshops
+- Flyer distributed widely
+
+*** =right
 
 --- &twocol
 
