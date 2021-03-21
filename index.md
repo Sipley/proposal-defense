@@ -534,7 +534,7 @@ Quantify the effect of coevolution on lineage diversification using phylogenetic
 Systematic Review and <br>
 Meta-Analysis (PRISMA) protocol
 - `metagear`
-- Follow criteria for conducting <br>transparent meta-analyses on open data
+- Criteria for conducting <br>transparent meta-analyses on <br>open data
 
 <img src="assets/img/prisma.png" style="position:absolute; 
 float:left; 
