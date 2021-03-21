@@ -30,22 +30,26 @@ knit        : slidify::knit2slides
 
 ## Big questions
 
-- How do ecological interactions shape the diversification of life?
+> - How do ecological interactions shape the diversification of life?
+> - Why is parasitism so ubiquitous despite obvious harm to host?
+
+<div style="position: absolute; bottom: 3em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px">Weinstein & Kuris (2016)</p>
+</div>
 
 --- 
 
 ## Big questions
 
 - How do ecological interactions shape the diversification of life?
-
-> - How is parasitism so ubiquitous despite obvious harm to host?
+- Why is parasitism so ubiquitous despite obvious harm to host?
 
 <br>
 
 <img src="assets/img/arms-race.png" title="plot of chunk powerful-caterpillar" alt="plot of chunk powerful-caterpillar" width="60%" style="display: block; margin: auto;" />
 
 <div style="position: absolute; bottom: 3em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Ehrlich and Raven (1964)<br>Weinstein & Kuris (2016)</p>
+<p style="font-size: 20px">Weinstein & Kuris (2016)<br>Ehrlich and Raven (1964)</p>
 </div>
 
 --- 
@@ -78,7 +82,7 @@ knit        : slidify::knit2slides
 ## Escape-and-radiate coevolution
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Ehrlich and Raven (1964)<br>Thompson (1994) </p>
+<p style="font-size: 20px">Ehrlich and Raven (1964)<br>Thompson (1994) </p>
 </div>
 
 --- &twocol
@@ -90,7 +94,7 @@ knit        : slidify::knit2slides
 >  &mdash; Althoff, Segraves, and Johnson (2014)
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Ehrlich and Raven (1964)<br>Thompson (1994) </p>
+<p style="font-size: 20px">Ehrlich and Raven (1964)<br>Thompson (1994) </p>
 </div>
 
 --- &twocol
@@ -106,7 +110,7 @@ knit        : slidify::knit2slides
 <H3 align="left">Let's say we start with</H3>
 ![starting](assets/img/starting.png)
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Ehrlich and Raven (1964)<br>Thompson (1994) </p>
+<p style="font-size: 20px">Ehrlich and Raven (1964)<br>Thompson (1994) </p>
 </div>
 
 --- &twocol
@@ -126,7 +130,7 @@ knit        : slidify::knit2slides
 ### Potential scenario
 ![escape-and-radiate](assets/img/escape-and-radiate.png)
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Ehrlich and Raven (1964)<br>Thompson (1994) </p>
+<p style="font-size: 20px">Ehrlich and Raven (1964)<br>Thompson (1994) </p>
 </div>
 
 --- .segue h2 bg:darkslategray
@@ -140,7 +144,7 @@ knit        : slidify::knit2slides
 - Recent exciting progress: explore evolution of interactions in model-based framework 
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Braga et al (2020, 2021)<br>Hardy (2016)<br>Kaczvinsky & Hardy (2020)</p>
+<p style="font-size: 20px">Braga et al (2020, 2021)<br>Hardy (2016)<br>Kaczvinsky & Hardy (2020)</p>
 </div>
 
 <img src="assets/img/intmat.png" style="position:absolute; 
@@ -156,11 +160,11 @@ bottom:25px;" width="65%">
 
 ## Problem
 
+- Rely on analogy
 - Require a fixed <br>host phylogeny
-- Rely on <br>phenomenological <br>interpretations 
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Braga et al (2020, 2021)<br>Hardy (2016)<br>Kaczvinsky & Hardy (2020)</p>
+<p style="font-size: 20px">Braga et al (2020, 2021)<br>Hardy (2016)<br>Kaczvinsky & Hardy (2020)</p>
 </div>
 
 <img src="assets/img/intmat.png" style="position:absolute; 
@@ -181,7 +185,8 @@ bottom:25px;" width="65%">
 
 <b>Possible evolutionary events</b>
 
-<img src="assets/img/evol.png" class="center" width="70%">
+
+<img src="assets/img/evol.png" class="center" width="65%">
 
 --- &twocol
 
@@ -215,13 +220,15 @@ bottom:30px;" width="70%">
 - M0: Host speciation independent of parasite extinction
 - M1: Host speciation higher after parasite extinction
 
+<br> 
+
 ## Methods
 
 - Develop new `R` package: `coevolve`
 - Simulate host-parasite coevolution: `cophy`
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Engelstadter & Fortuna (2019)</p>
+<p style="font-size: 20px">Engelstadter & Fortuna (2019)</p>
 </div>
 
 --- &twocol
@@ -229,7 +236,7 @@ bottom:30px;" width="70%">
 ## Proof of concept
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Simulations performed in `cophy`<br>
+<p style="font-size: 20px">Simulations performed in `cophy`<br>
 $\kappa = 0$, $\theta_S = 0.1$, $\beta = 0$<br>
 Top: $\nu = 0$<br>
 Bottom: $\nu = 2$</p>
@@ -247,7 +254,7 @@ Bottom: $\nu = 2$</p>
 ## Proof of concept
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Simulations performed in `cophy`<br>
+<p style="font-size: 20px">Simulations performed in `cophy`<br>
 $\kappa = 0$, $\theta_S = 0.1$, $\beta = 0$<br>
 Top: $\nu = 0$<br>
 Bottom: $\nu = 2$</p>
@@ -277,32 +284,33 @@ bottom:15px;" width="50%">
 
 ## Time-split
 
-Compare point statistics before and after "escape" events & overall summary statistics
+Compare summary statistics before and after "escape" events & overall 
 
-- Diversification rate ($r$)
-- Relative extinction rate ($\epsilon$)
-- Lineage through time plots
-- Tree shape summary stats: `RPANDA`
+- Diversification rate ($r$) ` `
+- Relative extinction rate ($\epsilon$) ` `
+- Lineage through time plots ` `
+- Tree shape summary stats: `RPANDA` ` `
 
-<div style="position: absolute; bottom: 4em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Morlon et al (2016)</p>
+<div style="position: absolute; bottom: 4em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px">Morlon et al (2016)</p>
 </div>
 
 ---
 
 ## Time-split
 
-Compare point statistics before and after "escape" events & overall summary statistics
 
-- Diversification rate ($r$) - `similar`
+Compare summary statistics before and after "escape" events & overall 
+
+- Diversification rate ($r$) - `similar overall; higher after "escape"`
 - Relative extinction rate ($\epsilon$) - `higher under escape-and-radiate`
 - Lineage through time plots - `more "bursts"`
 - Tree shape summary stats: `RPANDA` 
     - `trees less balanced, more pectinate`
     - `escape-and-radiate events fall out as peaks in spectral densities`
 
-<div style="position: absolute; bottom: 4em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Morlon et al (2016)</p>
+<div style="position: absolute; bottom: 4em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px">Morlon et al (2016)</p>
 </div>
 
 --- 
@@ -317,7 +325,7 @@ right:0px;
 bottom:80px;" width="62%">
 
 <div style="position: absolute; top: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="left">Balbuena et al (2013)<br>Hutchinson et al (2017)</p>
+<p style="font-size: 20px">Balbuena et al (2013)<br>Hutchinson et al (2017)</p>
 </div>
 
 --- 
@@ -332,7 +340,7 @@ right:0px;
 bottom:80px;" width="62%">
 
 <div style="position: absolute; top: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="left">Balbuena et al (2013)<br>Hutchinson et al (2017)</p>
+<p style="font-size: 20px">Balbuena et al (2013)<br>Hutchinson et al (2017)</p>
 </div>
 
 <br><br>
@@ -348,7 +356,7 @@ bottom:80px;" width="62%">
 <b>Event-based</b>
 
 <div style="position: absolute; top: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="left">Engelstadter & Fortuna (2019)<br>Conow et al (2010)</p>
+<p style="font-size: 20px">Engelstadter & Fortuna (2019)<br>Conow et al (2010)</p>
 </div>
 
 <img src="assets/img/cophy.png" style="position:absolute; 
@@ -371,7 +379,7 @@ bottom:205px;" width="38%">
 <b>Event-based</b>
 
 <div style="position: absolute; top: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="left">Engelstadter & Fortuna (2019)<br>Conow et al (2010)</p>
+<p style="font-size: 20px">Engelstadter & Fortuna (2019)<br>Conow et al (2010)</p>
 </div>
 
 <img src="assets/img/cophy.png" style="position:absolute; 
@@ -387,7 +395,7 @@ bottom:205px;" width="38%">
 
 <br><br><br><br><br><br>
 
-- `Host-shift events will be underestimated under escape-and-radiate`
+- `Host-shift events will be underestimated`
 
 --- 
 
@@ -396,7 +404,7 @@ bottom:205px;" width="38%">
 <b>Event-based</b>
 
 <div style="position: absolute; top: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="left">Engelstadter & Fortuna (2019)<br>Conow et al (2010)</p>
+<p style="font-size: 20px">Engelstadter & Fortuna (2019)<br>Conow et al (2010)</p>
 </div>
 
 <img src="assets/img/cophy.png" style="position:absolute; 
@@ -412,10 +420,10 @@ bottom:205px;" width="38%">
 
 <br><br><br><br><br><br>
 
-- `Host-shift events will be underestimated under escape-and-radiate`
+- `Host-shift events will be underestimated`
 - `Same for gene tree-species tree methods`
 
-<div style="position: absolute; bottom: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;" align="left">
+<div style="position: absolute; bottom: 4em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;" align="left">
 <p style="font-size: 20px">Satler et al (2019)</p>
 </div>
 
@@ -432,7 +440,7 @@ right:0px;
 bottom:15px;" width="80%">
 
 <div style="position: absolute; top: 1em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Braga et al (2020, 2021); Hardy (2016)<br>Kaczvinsky & Hardy (2020)</p>
+<p style="font-size: 20px">Braga et al (2020, 2021); Hardy (2016)<br>Kaczvinsky & Hardy (2020)</p>
 </div>
 
 --- 
@@ -455,7 +463,7 @@ right:0px;
 bottom:15px;" width="80%">
 
 <div style="position: absolute; top: 1em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Braga et al (2020, 2021); Hardy (2016)<br>Kaczvinsky & Hardy (2020)</p>
+<p style="font-size: 20px"">Braga et al (2020, 2021); Hardy (2016)<br>Kaczvinsky & Hardy (2020)</p>
 </div>
 
 --- 
@@ -464,9 +472,9 @@ bottom:15px;" width="80%">
 
 <b>BiSSE, HiSSE, Geo(Hi)SSE</b>
 
-Two rates classes:
+Possible rate classes:
 
-1. basal rate class
+1. base rate class
 2. accelerated rate class
 
 --- &twocol
@@ -477,9 +485,9 @@ Two rates classes:
 
 <b>BiSSE, HiSSE, Geo(Hi)SSE</b>
 
-Two rates classes:
+Possible rate classes:
 
-1. basal rate class
+1. base rate class
 2. accelerated rate class
 
 *** =right
@@ -488,8 +496,8 @@ Two rates classes:
 - `GeoHiSSE reconstructs coevolution under escape-and-radiate most accurately`
 - `Changes in rate classes inferred w/ greater certainty for H than P`
 
-<div style="position: absolute; bottom: 8em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Maddison, Midford, & Otto (2007)<br>
+<div style="position: absolute; bottom: 7em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px">Maddison, Midford, & Otto (2007)<br>
 Goldberg, Lancaster, & Ree (2011)
 <br>Beaulieu & O’Meara (2016)
 <br>Rabosky and Goldberg (2017)
@@ -515,13 +523,15 @@ Goldberg, Lancaster, & Ree (2011)
 - Few phylogenetic studies interpret their observations through lens of coevolutionary theory
 - Coevolutionary theory generates interesting predictions
 
+<br>
+
 ## Hypotheses
 
 1. Antagonistic coevolution promotes lineage diversification
 2. Mutualistic coevolution does not promote, and may even restrict, the diversification of species
 
-<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Yoder & Nuismer (2010)</p>
+<div style="position: absolute; bottom: 4em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px">Yoder & Nuismer (2010)</p>
 </div>
 
 ---
@@ -529,6 +539,16 @@ Goldberg, Lancaster, & Ree (2011)
 ## Good news
 
 Many publicly available datasets exist to test these exciting predictions 
+
+<br>
+
+---
+
+## Good news
+
+Many publicly available datasets exist to test these exciting predictions 
+
+<br>
 
 ## Objective
 
@@ -549,7 +569,7 @@ right:0px;
 bottom:0px;" width="50%">
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Moher et al (2015)<br>Lajeunesse (2016)</p>
+<p style="font-size: 20px">Moher et al (2015)<br>Lajeunesse (2016)</p>
 </div>
 
 ---
@@ -563,15 +583,17 @@ bottom:0px;" width="50%">
 
 ---
 
+## Scoping 
+
+- Two monophyletic groups A and B 
+- Open Tree of Life
+- Interaction Web Database
+- Global Biotic Interactions database
+
 ## Searching
 
-- Develop search terms - yikes 
-- Librarian &#10003;
-- Validate search terms 
-
-<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Zeng & Wiens (2021)</p>
-</div>
+- Develop search terms - Librarian &#10003;
+- Validate search terms using Zeng & Wiens (2021)
 
 ---
 
@@ -582,36 +604,27 @@ bottom:0px;" width="50%">
 - Follow criteria for conducting transparent meta-analyses on open data
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Lajeunesse (2016)<br>Culina et al (2018)</p>
+<p style="font-size: 20px">Lajeunesse (2016)<br>Culina et al (2018)</p>
 </div>
 
 ---
 
 ## Coding and extracting data
 
-- Open Tree of Life in `R`: `rotl` 
-- Phylogenetic heterogeneity!  Cool and also hard
-- Divergence time estimates: TimeTree
-- Phylogenetic similarity: `paco`
-
-<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Michonneau, Brown, & Winter (2016)<br>Kumar et al (2017)<br>Hutchinson et al (2017)</p>
-</div>
-
----
-
-## Coding and extracting data
-
+- Open Tree of Life in `R`: `rotl`
 - Estimate speciation and extinction rates: `GeoHiSSE`
-- Include potential covariates (e.g., $\epsilon$, is it a plant, is it a host, genome size)
 - Repeat analyses in Zeng and Wiens (2021)
 
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px">Michonneau, Brown, & Winter (2016)<br>Caetano, O'Meara, & Beaulieu (2018)</p>
+</div>
+
 ---
 
 ## Coding and extracting data
 
+- Open Tree of Life in `R`: `rotl`
 - Estimate speciation and extinction rates: `GeoHiSSE`
-- Include potential covariates (e.g., $\epsilon$, is it a plant, is it a host, genome size)
 - Repeat analyses in Zeng and Wiens (2021)
 
 ## Effect size
@@ -622,15 +635,8 @@ $$\log_2(R)$$
 
 $R$ is ratio of the two diversification rates
 
----
-
-## Traditional meta-analysis
-
-- Goal: get average weighted effect size
-- Evaluate homogeneity of effect sizes and test for bias
-
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Lajeunesse (2011)</p>
+<p style="font-size: 20px">Michonneau, Brown, & Winter (2016)<br>Caetano, O'Meara, & Beaulieu (2018)</p>
 </div>
 
 ---
@@ -640,6 +646,29 @@ $R$ is ratio of the two diversification rates
 - Goal: get average weighted effect size
 - Evaluate homogeneity of effect sizes and test for bias
 
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px">Reviewed in Lajeunesse (2011)</p>
+</div>
+
+---
+
+## Traditional meta-analysis
+
+- Goal: get average weighted effect size
+- Evaluate homogeneity of effect sizes and test for bias
+
+## Sources of heterogeneity
+
+- Include potential covariates (e.g, $\epsilon$, is it a plant, is it a host, genome size)
+- Divergence time estimates: TimeTree
+- Phylogenetic similarity: `paco`
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px">Lajeunesse (2011)<br>Kumar et al (2017)<br>Hutchinson et al (2017)</p>
+</div>
+
+---
+
 ## Phylogenetic meta-analysis
 
 - Additional source of bias: pooling effect size data from multiple taxa 
@@ -647,7 +676,7 @@ $R$ is ratio of the two diversification rates
 - Based on the generalized least squares (GLS) approach
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Adams (2008)<br>Lajeunesse (2009,2011,2016)</p>
+<p style="font-size: 20px">Adams (2008)<br>Lajeunesse (2009,2011,2016)</p>
 </div>
 
 ---
@@ -664,7 +693,7 @@ If $P$ is identity matrix, then studies are independent
 Otherwise, $P$ diagonal matrix of phylogenetic correlations
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Lajeunesse (2009)</p>
+<p style="font-size: 20px">Lajeunesse (2009)</p>
 </div>
 
 ---
@@ -681,7 +710,7 @@ If $P$ is identity matrix, then studies are independent
 Otherwise, $P$ diagonal matrix of `phylogenetic correlations` - &#x26A0;
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Lajeunesse (2009)</p>
+<p style="font-size: 20px">Lajeunesse (2009)</p>
 </div>
 
 ---
@@ -692,7 +721,7 @@ Otherwise, $P$ diagonal matrix of `phylogenetic correlations` - &#x26A0;
 - Phylogenetic divergence btwn interacting phylogenetics, taxonomic identity, relationship to partner, relative extinction rates
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Carmona, Lajeunesse, & Johnson (2011)</p>
+<p style="font-size: 20px">Carmona, Lajeunesse, & Johnson (2011)</p>
 </div>
 
 ---
@@ -708,7 +737,7 @@ Otherwise, $P$ diagonal matrix of `phylogenetic correlations` - &#x26A0;
 - `Extinction is important under escape-and-radiate`
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px"; align="right">Carmona, Lajeunesse, & Johnson (2011)</p>
+<p style="font-size: 20px">Carmona, Lajeunesse, & Johnson (2011)</p>
 </div>
 
 --- .segue h2 bg:darkslategray
@@ -830,13 +859,13 @@ bottom:55px;" width="70%">
 
 ## Data acquisition
 
-- Survey participants' confidence before and after course in 
-    - Writing code to analyze large, cumbersome datasets
+- Survey participants' confidence before and after course in  ` `
+    - Writing code to analyze large, cumbersome datasets 
     - Teaching computational skills to novices and intermediate learners 
 
-> - Collaborate to identify other metrics for comparison (e.g., extent to which learning objectives met) 
-> - Examine the reproducibility of code
-> - Assess extent to which product meets the desired requirements 
+> - Collaborate to identify other metrics for comparison (e.g., extent to which learning objectives met) ` `
+> - Examine the reproducibility of code `  `
+> - Assess extent to which product meets the desired requirements `  `
 
 ---
 
@@ -845,7 +874,6 @@ bottom:55px;" width="70%">
 - Survey participants' confidence before and after course in - `improve`
     - Writing code to analyze large, cumbersome datasets 
     - Teaching computational skills to novices and intermediate learners
-
 - Collaborate to identify other metrics for comparison (e.g., extent to which learning objectives met) - `equal gains`
 - Examine the reproducibility of code - `good`
 - Assess extent to which product meets the desired requirements - `good`
@@ -871,6 +899,9 @@ bottom:55px;" width="70%">
 
 ![timeline](assets/img/timeline.png)
 
+<P style="font-size: 16pt; color: maroon; align: center">C2: Escape-and-radiate model<br>
+C3: Meta-analysis<br>
+C4: Train-the-Trainer</P>
 
 ---
 
@@ -896,7 +927,7 @@ bottom:55px;" width="70%">
 ## Broader impacts
 
 > 1. Foundation for cophylogenetic comparative framework
-> 2. Empowerment of more diverse, collobrative, and inclusive professoriate
+> 2. Empowerment of more diverse, collaborative, and inclusive professoriate
 > 3. Support reproducibility of science 
 > 4. Increase computational literacy of biologists
 > 5. Independent research experiences for 3 undergraduates
@@ -908,29 +939,37 @@ bottom:55px;" width="70%">
 
 *** {name: left}
 <b>Committee</b><br>
-Luke Harmon<br>
+Luke Harmon*<br>
 Christine Parent<br>
 Aleta Quinn<br>
 Jack Sullivan
 
 <b>Rockstar labmates</b><br>
-Kristen Martinet, Orlando Schwery
+Kristen Martinet<br>
+Orlando Schwery
 
 <b>BCB</b><br>
 Lisha Abendroth<br>
 Dave Tank
 
 *** {name: right}
-<b>Resources</b><br>
-NSF GRFP, Idaho EPSCoR GEM3 VIP<br>
-UI IBEST CRC<br>
-Raven Scholars, CDAR, CTC, COGS
-
-<b>Snorks</b><br>
-Kelly Martin, Ian Oiler, Malia Santos, David Sneddon
+<br><br><br>
+<b>Ancestral Skate Reconstruction</b><br>
 
 <b>Co-working friends</b><br>
-Chava Castaneda, Clint Elg, Yesol Sapozhnikov, Courtney Schreiner, Hannah Smith, Amanda Stahlke
+
+<b>Fellowship of the Snorks</b><br>
+
+<b>Resources</b><br>
+NSF GRFP, IMCI, EPSCoR GEM3 VIP<br>
+IBEST CRC<br>
+Raven Scholars, CDAR, CTC<br>
+COGS, Dean of Students
+
+<img src="assets/img/ASR.jpeg" style="position:absolute; 
+float:left; 
+right:0px; 
+top:0px;" width="50%">
 
 --- {
  tpl: thankyou,
