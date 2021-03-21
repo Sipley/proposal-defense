@@ -69,10 +69,10 @@ knit        : slidify::knit2slides
 
 <br>
 
-## Conventional methods
+## Conventional approaches
 
-- Test congruence between parasite and host 
-- Map parasite onto host
+- Test degree of congruence between parasite and host phylogenies
+- Map parasite phylogeny onto host phylogeny
 
 > - <b>Neglect reciprocal selective pressures</b>
 
