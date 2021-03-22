@@ -81,7 +81,7 @@ knit        : slidify::knit2slides
 ## Escape-and-radiate coevolution
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px">Ehrlich and Raven (1964)<br>Thompson (1994) </p>
+<p style="font-size: 20px">Ehrlich and Raven (1964)<br>Thompson (1989) </p>
 </div>
 
 --- &twocol
@@ -93,7 +93,7 @@ knit        : slidify::knit2slides
 >  &mdash; Althoff, Segraves, and Johnson (2014)
 
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px">Ehrlich and Raven (1964)<br>Thompson (1994) </p>
+<p style="font-size: 20px">Ehrlich and Raven (1964)<br>Thompson (1989) </p>
 </div>
 
 --- &twocol
@@ -109,7 +109,7 @@ knit        : slidify::knit2slides
 <H3 align="left">Let's say we start with</H3>
 ![starting](assets/img/starting.png)
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px">Ehrlich and Raven (1964)<br>Thompson (1994) </p>
+<p style="font-size: 20px">Ehrlich and Raven (1964)<br>Thompson (1989) </p>
 </div>
 
 --- &twocol
@@ -129,7 +129,7 @@ knit        : slidify::knit2slides
 ### Potential scenario
 ![escape-and-radiate](assets/img/escape-and-radiate.png)
 <div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
-<p style="font-size: 20px">Ehrlich and Raven (1964)<br>Thompson (1994) </p>
+<p style="font-size: 20px">Ehrlich and Raven (1964)<br>Thompson (1989) </p>
 </div>
 
 --- .segue h2 bg:darkslategray
