@@ -40,13 +40,6 @@ National Geographic (2014)
 
 ![red-queen](assets/img/redQueen.jpeg)
 
-<img src="assets/img/intmat.png" style="position:absolute; 
-float:left; 
-right:0px; 
-bottom:25px;" width="78%">
-
----
-
 ---
 
 ## Background
@@ -214,6 +207,8 @@ Likelihood calculated using DEC only reflects evolution of ranges (host-repertoi
 <div style="position: absolute; bottom: 5em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px"; align="right">Caetano, O'Meara, & Beaulieu (2018)<br>Ree & Sanmartin (2018)<br>Goldberg, Lancaster, & Ree (2011)</p>
 </div>
+
+---
 
 ## Models of diversification
 
