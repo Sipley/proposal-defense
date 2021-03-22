@@ -47,6 +47,43 @@ bottom:25px;" width="78%">
 
 ---
 
+---
+
+## Background
+
+- Recent exciting progress: explore evolution of interactions in model-based framework 
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px">Braga et al (2020, 2021)<br>Hardy (2016)<br>Kaczvinsky & Hardy (2020)</p>
+</div>
+
+<img src="assets/img/intmat.png" style="position:absolute; 
+float:left; 
+right:0px; 
+bottom:25px;" width="60%">
+
+---
+
+## Background
+
+- Recent exciting progress: explore evolution of interactions in model-based framework
+
+## Problem
+
+- Rely on analogy
+- Require a fixed <br>host phylogeny
+
+<div style="position: absolute; bottom: 5em; left: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px">Braga et al (2020, 2021)<br>Hardy (2016)<br>Kaczvinsky & Hardy (2020)</p>
+</div>
+
+<img src="assets/img/intmat.png" style="position:absolute; 
+float:left; 
+right:0px; 
+bottom:25px;" width="60%">
+
+---
+
 ## Gene tree-species tree evolution
 
 - Based on Duplication-Transfer-Loss model 
