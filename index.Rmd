@@ -295,6 +295,10 @@ bottom:80px;" width="62%">
 <p style="font-size: 20px">Balbuena et al (2013)<br>Hutchinson et al (2017)</p>
 </div>
 
+<div style="position: absolute; bottom: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px">Data from Braga et al (2020)</p>
+</div>
+
 --- 
 
 ## Cophylogeny reconstruction
@@ -308,6 +312,10 @@ bottom:80px;" width="62%">
 
 <div style="position: absolute; top: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
 <p style="font-size: 20px">Balbuena et al (2013)<br>Hutchinson et al (2017)</p>
+</div>
+
+<div style="position: absolute; bottom: 2em; right: 5em; font-weight: bold; color: #fff; font-size: 11px;">
+<p style="font-size: 20px">Data from Braga et al (2020)</p>
 </div>
 
 <br><br>
@@ -855,7 +863,8 @@ bottom:55px;" width="70%">
 
 ![timeline](assets/img/timeline.png)
 
-<P style="font-size: 16pt; color: maroon; align: center">C2: Escape-and-radiate model<br>
+<P style="font-size: 16pt; color: maroon; align: center">C1: Introduction<br>
+C2: Escape-and-radiate model<br>
 C3: Meta-analysis<br>
 C4: Train-the-Trainer</P>
 
